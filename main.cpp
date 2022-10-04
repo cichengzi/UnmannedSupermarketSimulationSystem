@@ -10,8 +10,14 @@
 #include<iostream>
 
 int main(int argc, char *argv[]) {
+    /*
     QApplication a(argc, argv);
     Simulator simulator;
     simulator.show();
     return a.exec();
+     */
+    //system("conda activate DL");
+
+    system("python ../MaskDetection/mask_detection.py");
+    return 0;
 }

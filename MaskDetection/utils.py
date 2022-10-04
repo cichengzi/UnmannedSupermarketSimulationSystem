@@ -5,8 +5,10 @@ import torch
 
 
 def load_mask_data():
-    train_datasets = datasets.ImageFolder(os.path.join(MASK_DATA_DIR, 'train'), TRAIN_AUG)
-    val_datasets = datasets.ImageFolder(os.path.join(MASK_DATA_DIR, 'val'), VAL_AUG)
-    train_loader = torch.utils.data.DataLoader(train_datasets, batch_size=32, shuffle=True)
-    val_loader = torch.utils.data.DataLoader(val_datasets, batch_size=32)
-    return train_loader, val_loader, train_datasets, val_datasets
+    image_datasets = {x: datasets.ImageFolder(os.path.join(data_dir, x), data_transforms[x]) for x in ['train', 'val']}
+    data_loaders = {x: torch.utils.data.DataLoader(image_datasets[x], batch_size=32, shuffle=True)
+                    for x in ['train', 'val']}
+    dataset_sizes = {x: len(image_datasets[x]) for x in ['train', 'val']}
+    class_names = image_datasets['train'].classes
+    return image_datasets, data_loaders, dataset_sizes, class_names
+

@@ -38,7 +38,7 @@ std::string Helper::charArrayToString(char *s) {
 }
 
 bool Helper::checkMask() {
-    return true;
+
 }
 
 User Helper::faceRecognize() {

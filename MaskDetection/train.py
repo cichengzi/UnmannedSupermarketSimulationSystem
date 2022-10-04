@@ -1,73 +1,58 @@
-import time
 import copy
 import torch
-from torch import nn, optim
-from MaskDetection import utils
-from MaskDetection.config import *
-from MaskDetection.model import get_model
 
 
-def train_model(model, criterion, optimizer, train_loader, val_loader, train_datasets, val_datasets, num_epochs=25):
-    model.to(DEVICE)
-    start = time.time()
+def train_model(model, data_loaders, dataset_sizes, criterion, optimizer, scheduler, device, num_epochs):
     best_model_weights = copy.deepcopy(model.state_dict())
     best_acc = 0.0
 
+    model.to(device)
+
     for epoch in range(num_epochs):
-        print(f'Epoch {epoch}/{num_epochs - 1}')
+        print(f'epoch {epoch + 1}/{num_epochs}')
         print('-' * 10)
 
-        model.train()
-        train_loss = 0.0
-        train_acc = 0
+        for phase in ['train', 'val']:
+            if phase == 'train':
+                model.train()
+            else:
+                model.eval()
 
-        for inputs, labels in train_loader:
-            inputs = inputs.to(DEVICE)
-            labels = labels.to(DEVICE)
-            optimizer.zero_grad()
+            epoch_loss = 0.0
+            epoch_corrects = 0
 
-            outputs = model(inputs)
-            _, preds = torch.max(outputs, 1)
-            loss = criterion(outputs, labels)
-            loss.backward()
-            optimizer.step()
+            for inputs, labels in data_loaders[phase]:
+                inputs = inputs.to(device)
+                labels = labels.to(device)
 
-            train_loss += float(loss.item() * inputs.size(0))
-            train_acc += float(torch.sum(preds == labels.data))
+                optimizer.zero_grad()
 
-        train_loss /= len(train_datasets)
-        train_acc /= len(train_datasets)
-        print(f'train loss: {train_loss:.4f}, train acc: {train_acc:.4f}')
+                with torch.set_grad_enabled(phase == 'train'):
+                    outputs = model(inputs)
+                    _, preds = torch.max(outputs, 1)
+                    loss = criterion(outputs, labels)
 
-        model.eval()
-        val_loss = 0.0
-        val_acc = 0
+                    if phase == 'train':
+                        loss.backward()
+                        optimizer.step()
 
-        for inputs, labels in val_loader:
-            inputs = inputs.to(DEVICE)
-            labels = labels.to(DEVICE)
-            outputs = model(inputs)
-            _, preds = torch.max(outputs, 1)
-            loss = criterion(outputs, labels)
-            val_loss += float(loss.item() * inputs.size(0))
-            val_acc += float(torch.sum(preds == labels.data))
+                epoch_loss += loss.item() * inputs.size(0)
+                epoch_corrects += torch.sum(preds == labels.data).item()
 
-        val_loss /= len(val_datasets)
-        val_acc /= len(val_datasets)
-        print(f'val loss: {val_loss:.4f}, val acc: {val_acc:.4f}')
+            if phase == 'train':
+                scheduler.step()
 
-        if val_acc > best_acc:
-            best_acc = val_acc
-            best_model_weights = copy.deepcopy(model.state_dict())
-            torch.save(best_model_weights, MODEL_PATH)
+            epoch_loss /= dataset_sizes[phase]
+            epoch_acc = epoch_corrects / dataset_sizes[phase]
 
-    time_cost = time.time() - start
-    print(f'training complete in {time_cost // 60:.0f}m {time_cost % 60:.0f}s')
+            print(f'{phase} loss: {epoch_loss:.4f}, {phase} acc: {epoch_acc:.4f}')
+
+            if phase == 'val' and epoch_acc > best_acc:
+                best_acc = epoch_acc
+                best_model_weights = copy.deepcopy(model.state_dict())
+
+        print()
+
     print(f'best val acc: {best_acc:.4f}')
-
-
-train_loader, val_loader, train_datasets, val_datasets = utils.load_mask_data()
-model = get_model()
-criterion = nn.CrossEntropyLoss()
-optimizer_ft = optim.SGD(model.parameters(), lr=0.001, momentum=0.9)
-train_model(model, criterion, optimizer_ft, train_loader, val_loader, train_datasets, val_datasets, num_epochs=10)
+    model.load_state_dict(best_model_weights)
+    return model
