@@ -1,0 +1,260 @@
+{
+	"BUILD_DIR" : "/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/cmake-build-debug/UnmannedSupermarketSimulationSystem_autogen",
+	"CMAKE_BINARY_DIR" : "/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/cmake-build-debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/cmake-build-debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem",
+	"CMAKE_EXECUTABLE" : "/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/CMakeLists.txt",
+		"/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/cmake-build-debug/CMakeFiles/3.17.5/CMakeSystem.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/CMakeSystemSpecificInitialize.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/Platform/Darwin-Initialize.cmake",
+		"/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/cmake-build-debug/CMakeFiles/3.17.5/CMakeCCompiler.cmake",
+		"/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/cmake-build-debug/CMakeFiles/3.17.5/CMakeCXXCompiler.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/CMakeSystemSpecificInformation.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/CMakeGenericSystem.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/CMakeInitializeConfigs.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/Platform/Darwin.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/Platform/UnixPaths.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/CMakeFindCodeBlocks.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/CMakeExtraGeneratorDetermineCompilerMacrosAndIncludeDirs.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/ProcessorCount.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/CMakeCInformation.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/CMakeLanguageInformation.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/Compiler/GNU-C.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/Compiler/GNU.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/Compiler/CMakeCommonCompilerMacros.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/Internal/CMakeCheckCompilerFlag.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/Platform/Apple-GNU-C.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/Platform/Apple-GNU.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/CMakeCommonLanguageInclude.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/CMakeCXXInformation.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/CMakeLanguageInformation.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/Compiler/GNU-CXX.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/Compiler/GNU.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/Platform/Apple-GNU-CXX.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/Platform/Apple-GNU.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/CMakeCommonLanguageInclude.cmake",
+		"/Users/cichengzi/miniforge3/lib/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"/Users/cichengzi/miniforge3/lib/cmake/Qt5/Qt5Config.cmake",
+		"/Users/cichengzi/miniforge3/lib/cmake/Qt5/Qt5ModuleLocation.cmake",
+		"/Users/cichengzi/miniforge3/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake",
+		"/Users/cichengzi/miniforge3/lib/cmake/Qt5Core/Qt5CoreConfig.cmake",
+		"/Users/cichengzi/miniforge3/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake",
+		"/Users/cichengzi/miniforge3/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake",
+		"/Users/cichengzi/miniforge3/lib/cmake/Qt5Core/Qt5CoreMacros.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/CMakeParseArguments.cmake",
+		"/Users/cichengzi/miniforge3/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake",
+		"/Users/cichengzi/miniforge3/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake",
+		"/Users/cichengzi/miniforge3/lib/cmake/Qt5Gui/Qt5Gui_QCocoaIntegrationPlugin.cmake",
+		"/Users/cichengzi/miniforge3/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake",
+		"/Users/cichengzi/miniforge3/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake",
+		"/Users/cichengzi/miniforge3/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake",
+		"/Users/cichengzi/miniforge3/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake",
+		"/Users/cichengzi/miniforge3/lib/cmake/Qt5Gui/Qt5Gui_QMacHeifPlugin.cmake",
+		"/Users/cichengzi/miniforge3/lib/cmake/Qt5Gui/Qt5Gui_QMacJp2Plugin.cmake",
+		"/Users/cichengzi/miniforge3/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake",
+		"/Users/cichengzi/miniforge3/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake",
+		"/Users/cichengzi/miniforge3/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin.cmake",
+		"/Users/cichengzi/miniforge3/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake",
+		"/Users/cichengzi/miniforge3/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake",
+		"/Users/cichengzi/miniforge3/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake",
+		"/Users/cichengzi/miniforge3/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake",
+		"/Users/cichengzi/miniforge3/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake",
+		"/Users/cichengzi/miniforge3/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake",
+		"/Users/cichengzi/miniforge3/lib/cmake/Qt5Gui/Qt5Gui_QWebGLIntegrationPlugin.cmake",
+		"/Users/cichengzi/miniforge3/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake",
+		"/Users/cichengzi/miniforge3/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake",
+		"/Users/cichengzi/miniforge3/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake",
+		"/Users/cichengzi/miniforge3/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake",
+		"/Users/cichengzi/miniforge3/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake",
+		"/Users/cichengzi/miniforge3/lib/cmake/Qt5Widgets/Qt5Widgets_QMacStylePlugin.cmake",
+		"/Users/cichengzi/miniforge3/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake",
+		"/Users/cichengzi/miniforge3/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/CMakeParseArguments.cmake",
+		"/opt/homebrew/lib/cmake/opencv4/OpenCVConfig-version.cmake",
+		"/opt/homebrew/lib/cmake/opencv4/OpenCVConfig.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/FindPackageHandleStandardArgs.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/FindPackageMessage.cmake",
+		"/opt/homebrew/lib/cmake/opencv4/OpenCVModules.cmake",
+		"/opt/homebrew/lib/cmake/opencv4/OpenCVModules-release.cmake"
+	],
+	"CMAKE_SOURCE_DIR" : "/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/Commodity.h",
+			"MU",
+			"EWIEGA46WW/moc_Commodity.cpp"
+		],
+		[
+			"/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/CommodityShelf.h",
+			"MU",
+			"EWIEGA46WW/moc_CommodityShelf.cpp"
+		],
+		[
+			"/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/Helper.h",
+			"MU",
+			"EWIEGA46WW/moc_Helper.cpp"
+		],
+		[
+			"/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/LinkedList.h",
+			"MU",
+			"EWIEGA46WW/moc_LinkedList.cpp"
+		],
+		[
+			"/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/Node.h",
+			"MU",
+			"EWIEGA46WW/moc_Node.cpp"
+		],
+		[
+			"/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/ShoppingCart.h",
+			"MU",
+			"EWIEGA46WW/moc_ShoppingCart.cpp"
+		],
+		[
+			"/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/Supermarket.h",
+			"MU",
+			"EWIEGA46WW/moc_Supermarket.cpp"
+		],
+		[
+			"/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/UseCase.h",
+			"MU",
+			"EWIEGA46WW/moc_UseCase.cpp"
+		],
+		[
+			"/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/User.h",
+			"MU",
+			"EWIEGA46WW/moc_User.cpp"
+		],
+		[
+			"/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/productpurchase.h",
+			"MU",
+			"EWIEGA46WW/moc_productpurchase.cpp"
+		],
+		[
+			"/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/simulator.h",
+			"MU",
+			"EWIEGA46WW/moc_simulator.cpp"
+		],
+		[
+			"/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/test.h",
+			"MU",
+			"EWIEGA46WW/moc_test.cpp"
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/cmake-build-debug/UnmannedSupermarketSimulationSystem_autogen/include",
+	"MOC_COMPILATION_FILE" : "/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/cmake-build-debug/UnmannedSupermarketSimulationSystem_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_WIDGETS_LIB" ],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/opt/homebrew/Cellar/opencv/4.5.5_2/include/opencv4",
+		"/Users/cichengzi/miniforge3/include/qt",
+		"/Users/cichengzi/miniforge3/include/qt/QtCore",
+		"/Users/cichengzi/miniforge3/mkspecs/macx-clang-arm64",
+		"/Users/cichengzi/miniforge3/include/qt/QtGui",
+		"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/OpenGL.framework/Headers",
+		"/Users/cichengzi/miniforge3/include/qt/QtWidgets",
+		"/opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11",
+		"/opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/aarch64-apple-darwin21",
+		"/opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/backward",
+		"/opt/homebrew/Cellar/gcc/11.3.0_1/lib/gcc/11/gcc/aarch64-apple-darwin21/11/include",
+		"/opt/homebrew/Cellar/gcc/11.3.0_1/lib/gcc/11/gcc/aarch64-apple-darwin21/11/include-fixed",
+		"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include",
+		"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/opt/homebrew/Cellar/gcc/11.3.0_1/bin/g++-11",
+		"-dM",
+		"-E",
+		"-c",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/cmake-build-debug/UnmannedSupermarketSimulationSystem_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 8,
+	"PARSE_CACHE_FILE" : "/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/cmake-build-debug/CMakeFiles/UnmannedSupermarketSimulationSystem_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/Users/cichengzi/miniforge3/bin/moc",
+	"QT_UIC_EXECUTABLE" : "/Users/cichengzi/miniforge3/bin/uic",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/cmake-build-debug/CMakeFiles/UnmannedSupermarketSimulationSystem_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/Commodity.cpp",
+			"MU"
+		],
+		[
+			"/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/CommodityShelf.cpp",
+			"MU"
+		],
+		[
+			"/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/Helper.cpp",
+			"MU"
+		],
+		[
+			"/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/LinkedList.cpp",
+			"MU"
+		],
+		[
+			"/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/Node.cpp",
+			"MU"
+		],
+		[
+			"/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/ShoppingCart.cpp",
+			"MU"
+		],
+		[
+			"/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/Supermarket.cpp",
+			"MU"
+		],
+		[
+			"/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/UseCase.cpp",
+			"MU"
+		],
+		[
+			"/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/User.cpp",
+			"MU"
+		],
+		[
+			"/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/main.cpp",
+			"MU"
+		],
+		[
+			"/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/productpurchase.cpp",
+			"MU"
+		],
+		[
+			"/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/simulator.cpp",
+			"MU"
+		],
+		[
+			"/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/test.cpp",
+			"MU"
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

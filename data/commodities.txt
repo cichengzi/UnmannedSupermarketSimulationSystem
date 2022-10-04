@@ -1,0 +1,2 @@
+/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/resources/1.jpg,娃哈哈AD钙奶,2.0,1000,357980562643,超好喝的娃哈哈AD钙奶
+/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/resources/2.jpg,怡宝纯净水555ml,2.5,10000,357980562534,怡宝矿泉水

@@ -1,0 +1,4 @@
+/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/cmake-build-debug/CMakeFiles/UnmannedSupermarketSimulationSystem.dir
+/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/cmake-build-debug/CMakeFiles/UnmannedSupermarketSimulationSystem_autogen.dir

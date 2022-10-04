@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="UnmannedSupermarketSimulationSystem"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\miniforge3\;CMake Files\..\..\..\miniforge3\lib\;CMake Files\..\..\..\miniforge3\lib\cmake\;CMake Files\..\..\..\miniforge3\lib\cmake\Qt5\;CMake Files\..\..\..\miniforge3\lib\cmake\Qt5Core\;CMake Files\..\..\..\miniforge3\lib\cmake\Qt5Gui\;CMake Files\..\..\..\miniforge3\lib\cmake\Qt5Widgets\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\opt\;CMake Files\..\..\..\..\..\opt\homebrew\;CMake Files\..\..\..\..\..\opt\homebrew\lib\;CMake Files\..\..\..\..\..\opt\homebrew\lib\cmake\;CMake Files\..\..\..\..\..\opt\homebrew\lib\cmake\opencv4\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="UnmannedSupermarketSimulationSystem">
+				<Option output="/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/cmake-build-debug/UnmannedSupermarketSimulationSystem" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add directory="/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/cmake-build-debug/UnmannedSupermarketSimulationSystem_autogen/include"/>
+					<Add directory="/opt/homebrew/Cellar/opencv/4.5.5_2/include/opencv4"/>
+					<Add directory="/Users/cichengzi/miniforge3/include/qt"/>
+					<Add directory="/Users/cichengzi/miniforge3/include/qt/QtCore"/>
+					<Add directory="/Users/cichengzi/miniforge3/./mkspecs/macx-clang-arm64"/>
+					<Add directory="/Users/cichengzi/miniforge3/include/qt/QtGui"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/OpenGL.framework/Headers"/>
+					<Add directory="/Users/cichengzi/miniforge3/include/qt/QtWidgets"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.3.0_1/bin/../lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../../../../../include/c++/11"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.3.0_1/bin/../lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../../../../../include/c++/11/aarch64-apple-darwin21"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.3.0_1/bin/../lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../../../../../include/c++/11/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.3.0_1/bin/../lib/gcc/11/gcc/aarch64-apple-darwin21/11/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.3.0_1/bin/../lib/gcc/11/gcc/aarch64-apple-darwin21/11/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 UnmannedSupermarketSimulationSystem"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="UnmannedSupermarketSimulationSystem/fast">
+				<Option output="/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/cmake-build-debug/UnmannedSupermarketSimulationSystem" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add directory="/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/cmake-build-debug/UnmannedSupermarketSimulationSystem_autogen/include"/>
+					<Add directory="/opt/homebrew/Cellar/opencv/4.5.5_2/include/opencv4"/>
+					<Add directory="/Users/cichengzi/miniforge3/include/qt"/>
+					<Add directory="/Users/cichengzi/miniforge3/include/qt/QtCore"/>
+					<Add directory="/Users/cichengzi/miniforge3/./mkspecs/macx-clang-arm64"/>
+					<Add directory="/Users/cichengzi/miniforge3/include/qt/QtGui"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/OpenGL.framework/Headers"/>
+					<Add directory="/Users/cichengzi/miniforge3/include/qt/QtWidgets"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.3.0_1/bin/../lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../../../../../include/c++/11"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.3.0_1/bin/../lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../../../../../include/c++/11/aarch64-apple-darwin21"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.3.0_1/bin/../lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../../../../../include/c++/11/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.3.0_1/bin/../lib/gcc/11/gcc/aarch64-apple-darwin21/11/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.3.0_1/bin/../lib/gcc/11/gcc/aarch64-apple-darwin21/11/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 UnmannedSupermarketSimulationSystem/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="UnmannedSupermarketSimulationSystem_autogen">
+				<Option working_dir="/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 UnmannedSupermarketSimulationSystem_autogen"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/Commodity.cpp">
+			<Option target="UnmannedSupermarketSimulationSystem"/>
+		</Unit>
+		<Unit filename="/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/Commodity.h">
+			<Option target="UnmannedSupermarketSimulationSystem"/>
+		</Unit>
+		<Unit filename="/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/CommodityShelf.cpp">
+			<Option target="UnmannedSupermarketSimulationSystem"/>
+		</Unit>
+		<Unit filename="/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/CommodityShelf.h">
+			<Option target="UnmannedSupermarketSimulationSystem"/>
+		</Unit>
+		<Unit filename="/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/Helper.cpp">
+			<Option target="UnmannedSupermarketSimulationSystem"/>
+		</Unit>
+		<Unit filename="/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/Helper.h">
+			<Option target="UnmannedSupermarketSimulationSystem"/>
+		</Unit>
+		<Unit filename="/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/LinkedList.cpp">
+			<Option target="UnmannedSupermarketSimulationSystem"/>
+		</Unit>
+		<Unit filename="/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/LinkedList.h">
+			<Option target="UnmannedSupermarketSimulationSystem"/>
+		</Unit>
+		<Unit filename="/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/Node.cpp">
+			<Option target="UnmannedSupermarketSimulationSystem"/>
+		</Unit>
+		<Unit filename="/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/Node.h">
+			<Option target="UnmannedSupermarketSimulationSystem"/>
+		</Unit>
+		<Unit filename="/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/ShoppingCart.cpp">
+			<Option target="UnmannedSupermarketSimulationSystem"/>
+		</Unit>
+		<Unit filename="/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/ShoppingCart.h">
+			<Option target="UnmannedSupermarketSimulationSystem"/>
+		</Unit>
+		<Unit filename="/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/Supermarket.cpp">
+			<Option target="UnmannedSupermarketSimulationSystem"/>
+		</Unit>
+		<Unit filename="/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/Supermarket.h">
+			<Option target="UnmannedSupermarketSimulationSystem"/>
+		</Unit>
+		<Unit filename="/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/UseCase.cpp">
+			<Option target="UnmannedSupermarketSimulationSystem"/>
+		</Unit>
+		<Unit filename="/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/UseCase.h">
+			<Option target="UnmannedSupermarketSimulationSystem"/>
+		</Unit>
+		<Unit filename="/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/User.cpp">
+			<Option target="UnmannedSupermarketSimulationSystem"/>
+		</Unit>
+		<Unit filename="/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/User.h">
+			<Option target="UnmannedSupermarketSimulationSystem"/>
+		</Unit>
+		<Unit filename="/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/cmake-build-debug/UnmannedSupermarketSimulationSystem_autogen/mocs_compilation.cpp">
+			<Option target="UnmannedSupermarketSimulationSystem"/>
+		</Unit>
+		<Unit filename="/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/main.cpp">
+			<Option target="UnmannedSupermarketSimulationSystem"/>
+		</Unit>
+		<Unit filename="/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/productpurchase.cpp">
+			<Option target="UnmannedSupermarketSimulationSystem"/>
+		</Unit>
+		<Unit filename="/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/productpurchase.h">
+			<Option target="UnmannedSupermarketSimulationSystem"/>
+		</Unit>
+		<Unit filename="/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/productpurchase.ui">
+			<Option target="UnmannedSupermarketSimulationSystem"/>
+		</Unit>
+		<Unit filename="/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/simulator.cpp">
+			<Option target="UnmannedSupermarketSimulationSystem"/>
+		</Unit>
+		<Unit filename="/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/simulator.h">
+			<Option target="UnmannedSupermarketSimulationSystem"/>
+		</Unit>
+		<Unit filename="/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/simulator.ui">
+			<Option target="UnmannedSupermarketSimulationSystem"/>
+		</Unit>
+		<Unit filename="/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/test.cpp">
+			<Option target="UnmannedSupermarketSimulationSystem"/>
+		</Unit>
+		<Unit filename="/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/test.h">
+			<Option target="UnmannedSupermarketSimulationSystem"/>
+		</Unit>
+		<Unit filename="/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/../../../miniforge3/lib/cmake/Qt5/Qt5Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\miniforge3\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/../../../miniforge3/lib/cmake/Qt5/Qt5ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\miniforge3\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/../../../miniforge3/lib/cmake/Qt5/Qt5ModuleLocation.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\miniforge3\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/../../../miniforge3/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\miniforge3\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/../../../miniforge3/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\miniforge3\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/../../../miniforge3/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\miniforge3\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/../../../miniforge3/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\miniforge3\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/../../../miniforge3/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\miniforge3\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/../../../miniforge3/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\miniforge3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/../../../miniforge3/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\miniforge3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/../../../miniforge3/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\miniforge3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/../../../miniforge3/lib/cmake/Qt5Gui/Qt5Gui_QCocoaIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\miniforge3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/../../../miniforge3/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\miniforge3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/../../../miniforge3/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\miniforge3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/../../../miniforge3/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\miniforge3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/../../../miniforge3/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\miniforge3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/../../../miniforge3/lib/cmake/Qt5Gui/Qt5Gui_QMacHeifPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\miniforge3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/../../../miniforge3/lib/cmake/Qt5Gui/Qt5Gui_QMacJp2Plugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\miniforge3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/../../../miniforge3/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\miniforge3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/../../../miniforge3/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\miniforge3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/../../../miniforge3/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\miniforge3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/../../../miniforge3/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\miniforge3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/../../../miniforge3/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\miniforge3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/../../../miniforge3/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\miniforge3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/../../../miniforge3/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\miniforge3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/../../../miniforge3/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\miniforge3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/../../../miniforge3/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\miniforge3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/../../../miniforge3/lib/cmake/Qt5Gui/Qt5Gui_QWebGLIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\miniforge3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/../../../miniforge3/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\miniforge3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/../../../miniforge3/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\miniforge3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/../../../miniforge3/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\miniforge3\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/../../../miniforge3/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\miniforge3\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/../../../miniforge3/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\miniforge3\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/../../../miniforge3/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\miniforge3\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/../../../miniforge3/lib/cmake/Qt5Widgets/Qt5Widgets_QMacStylePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\miniforge3\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/../../../../../opt/homebrew/lib/cmake/opencv4/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\homebrew\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/../../../../../opt/homebrew/lib/cmake/opencv4/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\homebrew\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/../../../../../opt/homebrew/lib/cmake/opencv4/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\homebrew\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/../../../../../opt/homebrew/lib/cmake/opencv4/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\homebrew\lib\cmake\opencv4\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

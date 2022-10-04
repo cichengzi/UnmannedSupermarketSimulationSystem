@@ -1,0 +1,3 @@
+孙琪,0,1977.000000
+/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/resources/2.jpg,怡宝纯净水555ml,2.500000,6,357980562534,怡宝矿泉水
+/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/resources/1.jpg,娃哈哈AD钙奶,2.000000,4,357980562643,超好喝的娃哈哈AD钙奶
