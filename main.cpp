@@ -18,7 +18,7 @@ int main(int argc, char *argv[]) {
      */
 
     Helper helper;
-    std::cout << helper.faceRecognize("orl_faces/s2/10.pgm").getName() << std::endl;
+    std::cout << helper.faceRecognize("orl_faces/s2/10.jpg").getName() << std::endl;
     std::cout << helper.checkMask("mask/val/without_mask/2.jpg") << std::endl;
     return 0;
 }

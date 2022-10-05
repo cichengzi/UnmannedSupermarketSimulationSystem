@@ -34,7 +34,7 @@ if __name__ == '__main__':
         image_path1 = os.path.join(base_path, args[1])
         image1 = face_recognition.load_image_file(image_path1)
         image_enc1 = np.array(face_recognition.face_encodings(image1), dtype=float).reshape(-1)
-        #print(image_enc1.shape)
+        print(f'image path: {image_path1}')
         best_similarity = 0.0
         best_class = None
         for root, dirs, files in os.walk(os.path.join(base_path, 'faces')):
@@ -43,13 +43,14 @@ if __name__ == '__main__':
                 image_path2 = os.path.join(root, file)
                 image2 = face_recognition.load_image_file(image_path2)
                 image_enc2 = np.array(face_recognition.face_encodings(image2), dtype=float).reshape(-1)
-                try:
-                    current_similarity = get_similarity(image_enc1, image_enc2)
-                    if current_similarity > best_similarity:
-                        best_similarity = current_similarity
-                        best_class = class_name
-                except:
-                    pass
+                if image_enc2.shape[0] == 0:
+                    continue
+
+                current_similarity = get_similarity(image_enc1, image_enc2)
+                if current_similarity > best_similarity:
+                    best_similarity = current_similarity
+                    best_class = class_name
+
         if best_similarity < 0.9:
             best_class = None
         with open(os.path.join(base_path, 'result.txt'), 'w') as f:

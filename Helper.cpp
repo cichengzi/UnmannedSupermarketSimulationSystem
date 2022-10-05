@@ -59,10 +59,8 @@ User Helper::faceRecognize(const std::string pic_path) {
     std::string user_name(temp);
     //std::cout << user_name << std::endl;
     for (User user: readUsers()) {
-        //std::cout << "current user: " << user.getName() << ", my user: " << user_name << std::endl;
-        if (user.getName() == user_name) {
+        if (user.getName() == user_name)
             return user;
-        }
     }
     return User();
 }
