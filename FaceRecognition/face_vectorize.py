@@ -34,7 +34,7 @@ if __name__ == '__main__':
         image_path1 = os.path.join(base_path, args[1])
         image1 = face_recognition.load_image_file(image_path1)
         image_enc1 = np.array(face_recognition.face_encodings(image1), dtype=float).reshape(-1)
-        print(f'image path: {image_path1}')
+        #print(f'image path: {image_path1}')
         best_similarity = 0.0
         best_class = None
         for root, dirs, files in os.walk(os.path.join(base_path, 'faces')):
