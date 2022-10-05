@@ -44,8 +44,9 @@ bool Helper::checkMask(std::string pic_path) {
     FILE *fr = fopen("../MaskDetection/result.txt", "r");
     char temp[100];
     fgets(temp, 100, fr);
-    temp[strlen(temp) - 1] = '\0';
+    //temp[strlen(temp) - 1] = '\0';
     std::string pred(temp);
+    //std::cout << pred << std::endl;
     return pred == "mask";
 }
 

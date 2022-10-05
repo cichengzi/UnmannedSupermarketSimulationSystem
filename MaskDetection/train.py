@@ -7,6 +7,7 @@ def train_model(model, data_loaders, dataset_sizes, criterion, optimizer, schedu
     best_acc = 0.0
 
     model.to(device)
+    print(f'training on {device}')
 
     for epoch in range(num_epochs):
         print(f'epoch {epoch + 1}/{num_epochs}')

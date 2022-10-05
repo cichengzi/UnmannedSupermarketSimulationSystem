@@ -3,11 +3,14 @@ from matplotlib import pyplot as plt
 from predict import predict_mask
 import sys
 import os
+from config import *
+from PIL import Image
 
 
 def mask_detection(img_path):
     model = get_best_model()
-    image = plt.imread(img_path).transpose(2, 0, 1)
+    image = Image.open(img_path)
+    image = data_transforms['val'](image).numpy()
     return predict_mask(model, image)
 
 
