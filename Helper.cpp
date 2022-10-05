@@ -1,5 +1,7 @@
 #include"Helper.h"
-#include<time.h>
+#include<ctime>
+#include<iostream>
+#include<cstring>
 
 std::string Helper::substring(std::string s, int begin) {
     std::string t;
@@ -37,13 +39,31 @@ std::string Helper::charArrayToString(char *s) {
     return t;
 }
 
-bool Helper::checkMask() {
-
+bool Helper::checkMask(std::string pic_path) {
+    system(("/Users/cichengzi/miniforge3/envs/DL/bin/python ../MaskDetection/mask_detection.py " + pic_path).c_str());
+    FILE *fr = fopen("../MaskDetection/result.txt", "r");
+    char temp[100];
+    fgets(temp, 100, fr);
+    temp[strlen(temp) - 1] = '\0';
+    std::string pred(temp);
+    return pred == "mask";
 }
 
-User Helper::faceRecognize() {
-    std::vector<User> users = readUsers();
-    return users[0];
+User Helper::faceRecognize(const std::string pic_path) {
+    system(("/Users/cichengzi/miniforge3/envs/DL/bin/python ../FaceRecognition/face_vectorize.py " + pic_path).c_str());
+    FILE *fr = fopen("../FaceRecognition/result.txt", "r");
+    char temp[100];
+    fgets(temp, 100, fr);
+    temp[strlen(temp) - 1] = '\0';
+    std::string user_name(temp);
+    //std::cout << user_name << std::endl;
+    for (User user: readUsers()) {
+        //std::cout << "current user: " << user.getName() << ", my user: " << user_name << std::endl;
+        if (user.getName() == user_name) {
+            return user;
+        }
+    }
+    return User();
 }
 
 std::vector<User> Helper::readUsers() {

@@ -259,12 +259,13 @@ void Supermarket::logout() {
 
 void Supermarket::login() {
     Helper helper;
-    currentUser = helper.faceRecognize();
+    //currentUser = helper.faceRecognize();
 }
 
 bool Supermarket::checkMask() {
     Helper helper;
-    return helper.checkMask();
+    //return helper.checkMask();
+    return true;
 }
 
 ShoppingCart Supermarket::getCart() {

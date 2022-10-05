@@ -16,9 +16,9 @@ int main(int argc, char *argv[]) {
     simulator.show();
     return a.exec();
      */
-    system("conda env list");
-    system("conda init zsh");
-    system("conda activate");
-    //system("python ../MaskDetection/mask_detection.py");
+
+    Helper helper;
+    std::cout << helper.faceRecognize("orl_faces/s1/7.pgm").getName() << std::endl;
+    std::cout << helper.checkMask("mask/val/mask/0-with-mask.jpg") << std::endl;
     return 0;
 }

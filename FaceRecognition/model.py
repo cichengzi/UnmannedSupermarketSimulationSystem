@@ -15,5 +15,5 @@ def get_best_model(num_out_features):
     model = models.resnet18(pretrained=True)
     num_features = model.fc.in_features
     model.fc = nn.Linear(num_features, num_out_features)
-    model.load_state_dict(torch.load(model_path))
+    #model.load_state_dict(torch.load(model_path))
     return model

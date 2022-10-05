@@ -1,20 +1,23 @@
 from model import get_best_model
 from matplotlib import pyplot as plt
 from predict import predict_mask
+import sys
+import os
 
 
-def mask_detection(image_path):
+def mask_detection(img_path):
     model = get_best_model()
-    image = plt.imread(image_path).transpose(2, 0, 1)
+    image = plt.imread(img_path).transpose(2, 0, 1)
     return predict_mask(model, image)
 
 
-def save_result(img_path):
-    with open('result.txt', 'w') as fw:
-        fw.write(mask_detection(img_path))
-
-
 if __name__ == '__main__':
-    with open('image_path.txt', 'r') as fr:
-        image_path = fr.read()
-        save_result(image_path)
+    args = sys.argv
+    base_path = '/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/MaskDetection'
+    if len(args) != 2:
+        print('Invalid args!')
+    else:
+        image_path = os.path.join(base_path, args[1])
+        res = mask_detection(image_path)
+        with open(os.path.join(base_path, 'result.txt'), 'w') as f:
+            f.write(res)

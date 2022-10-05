@@ -18,4 +18,4 @@ data_transforms = {
 data_dir = 'mask'
 device = 'mps'
 
-model_path = 'parameters/finetuned_model_resnet18.pth'
+model_path = '/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/MaskDetection/parameters/finetuned_model_resnet18.pth'

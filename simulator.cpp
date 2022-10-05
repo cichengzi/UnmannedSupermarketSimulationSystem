@@ -48,7 +48,7 @@ void Simulator::productPurchase() {
 
 void Simulator::authentication() {
     Helper helper;
-    currentUser = helper.faceRecognize(); // 调用人脸识别对当前用户进行身份验证，获取currentUser
+//    currentUser = helper.faceRecognize(); // 调用人脸识别对当前用户进行身份验证，获取currentUser
     if (currentUser.getId() != 0) { // 如果id不为0，即通过身份验证
         /*
         std::vector<ShoppingCart> carts = helper.readShoppingCarts();

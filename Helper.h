@@ -20,9 +20,9 @@ public:
 
     std::string charArrayToString(char s[]);
 
-    bool checkMask();
+    bool checkMask(std::string pic_path);
 
-    User faceRecognize();
+    User faceRecognize(std::string pic_path);
 
     std::vector<User> readUsers();
 
