@@ -16,8 +16,9 @@ int main(int argc, char *argv[]) {
     simulator.show();
     return a.exec();
      */
-    //system("conda activate DL");
-
-    system("python ../MaskDetection/mask_detection.py");
+    system("conda env list");
+    system("conda init zsh");
+    system("conda activate");
+    //system("python ../MaskDetection/mask_detection.py");
     return 0;
 }
