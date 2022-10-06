@@ -48,18 +48,11 @@ void Simulator::productPurchase() {
 
 void Simulator::authentication() {
     Helper helper;
-//    currentUser = helper.faceRecognize(); // 调用人脸识别对当前用户进行身份验证，获取currentUser
+    if (!DEBUG)
+        currentUser = helper.faceRecognize(); // 调用人脸识别对当前用户进行身份验证，获取currentUser
+    else
+        currentUser = helper.readUsers().front();
     if (currentUser.getId() != 0) { // 如果id不为0，即通过身份验证
-        /*
-        std::vector<ShoppingCart> carts = helper.readShoppingCarts();
-        for (int i = 0; i < carts.size(); i++) {
-            if (carts[i].getUser().getName() == currentUser.getName()) {
-                shoppingCart = carts[i];
-                break;
-            }
-        }
-        shoppingCart.setUser(currentUser);
-         */
         shoppingCart = searchShoppingCart(currentUser);
         QString title = QString::fromStdString("身份验证");
         QString content = QString::fromStdString("身份验证成功！当前用户为\"" + currentUser.getName() + "\"");
@@ -86,7 +79,11 @@ void Simulator::maskDetection() {
     /*
      * 口罩检测部分代码
      */
-    mask = true;
+    Helper helper;
+    if (!DEBUG)
+        mask = helper.maskDetection();
+    else
+        mask = true;
     if (mask) {
         QString title = QString::fromStdString("防疫检测");
         QString content = QString::fromStdString("防疫检测通过！");

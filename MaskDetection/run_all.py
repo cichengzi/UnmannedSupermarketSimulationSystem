@@ -26,14 +26,17 @@ def check_mask():
     cap = cv2.VideoCapture(0)
     pic_path = 'temp.jpg'
     for i in range(50):
+        print(f'epoch {i + 1}')
         suc, img = cap.read()
-        cv2.imshow('Mask Detection', img)
+        print(img.shape)
+        #cv2.imshow('Mask Detection', img)
         faces = get_all_faces(img)
-        #print(i)
+        if len(faces) > 0:
+            print(f'{len(faces)} faces...')
         if len(faces) != 1:
             time.sleep(0.01)
             continue
-        print('mask detecting...')
+        print(f'epoch {i + 1}, mask detecting...')
         face = faces[0]
         face = cv2.cvtColor(face, cv2.COLOR_GRAY2BGR)
         plt.imsave(pic_path, face)

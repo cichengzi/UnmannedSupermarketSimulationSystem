@@ -79,6 +79,8 @@ private:
     QLineEdit* descriptionPrompt;
     QPushButton* manageAddButton;
     QPushButton* manageCloseButton;
+
+    bool DEBUG = true; // 如果是debug模式的话，不用口罩检测和人脸识别
 };
 
 #endif //UNMANNEDSUPERMARKETSIMULATIONSYSTEM_SIMULATOR_H
