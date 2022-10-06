@@ -262,6 +262,7 @@ void Simulator::margoManagement() {
     if (mask && currentUser.getId() != 0 && currentUser.getUserType() == UserType::Administrator) {
         manageWidget = new QWidget();
         manageWidget->setFixedSize(480, 720);
+        manageWidget->move(500, 200);
 
         picPathPrompt = new QLineEdit(manageWidget);
         picPathPrompt->setText("请输入商品图片路径");
@@ -285,6 +286,7 @@ void Simulator::margoManagement() {
 
         manageAddButton = new QPushButton(manageWidget);
         manageAddButton->setText("添加");
+        manageAddButton->move(150, 550);
 
         manageCloseButton = new QPushButton(manageWidget);
         manageCloseButton->setText("关闭");
