@@ -1,2 +1,4 @@
-/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/resources/1.jpg,娃哈哈AD钙奶,2.0,1000,357980562643,超好喝的娃哈哈AD钙奶
-/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/resources/2.jpg,怡宝纯净水555ml,2.5,10000,357980562534,怡宝矿泉水
+/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/resources/2.jpg,怡宝纯净水555ml,2.500000,9996,357980562534,怡宝矿泉水
+/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/resources/3.jpg,德芙巧克力礼盒装3碗牛奶黑巧克力多口味零食小吃休闲食品大礼包,89.900000,98,5787220832,牛奶巧克力
+/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/resources/4.jpg,雀巢脆脆鲨巧克力威化饼干夹心混合口味奇巧花生,28.900000,98,5560741168,巧克力夹心饼干
+/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/resources/1.jpg,娃哈哈AD钙奶,2.000000,988,357980562643,超好喝的娃哈哈AD钙奶

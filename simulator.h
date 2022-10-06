@@ -42,6 +42,8 @@ private slots:
 
     void updateRecord();
 
+    void updateCommodity();
+
     void purchaseRecord(); // 购买记录的界面
 
     void closeRecord();
@@ -53,6 +55,8 @@ private slots:
     void addMargo();
 
     void removeMargo();
+
+    void helpMargo();
 
 public slots:
     void setCurrentUser(User us); // 设置currentUser
@@ -79,7 +83,8 @@ private:
     QLineEdit* descriptionPrompt;
     QPushButton* manageAddButton;
     QPushButton* manageCloseButton;
-
+    QPushButton* manageSubButton;
+    QPushButton* manageHelpButton;
     bool DEBUG = true; // 如果是debug模式的话，不用口罩检测和人脸识别
 };
 

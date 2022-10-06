@@ -22,8 +22,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_Simulator_t {
-    QByteArrayData data[24];
-    char stringdata0[275];
+    QByteArrayData data[26];
+    char stringdata0[301];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -45,27 +45,30 @@ QT_MOC_LITERAL(9, 98, 2), // "us"
 QT_MOC_LITERAL(10, 101, 10), // "updateUser"
 QT_MOC_LITERAL(11, 112, 18), // "updateShoppingCart"
 QT_MOC_LITERAL(12, 131, 12), // "updateRecord"
-QT_MOC_LITERAL(13, 144, 14), // "purchaseRecord"
-QT_MOC_LITERAL(14, 159, 11), // "closeRecord"
-QT_MOC_LITERAL(15, 171, 15), // "margoManagement"
-QT_MOC_LITERAL(16, 187, 20), // "closeMargoManagement"
-QT_MOC_LITERAL(17, 208, 8), // "addMargo"
-QT_MOC_LITERAL(18, 217, 11), // "removeMargo"
-QT_MOC_LITERAL(19, 229, 14), // "setCurrentUser"
-QT_MOC_LITERAL(20, 244, 15), // "setShoppingCart"
-QT_MOC_LITERAL(21, 260, 4), // "cart"
-QT_MOC_LITERAL(22, 265, 7), // "setMask"
-QT_MOC_LITERAL(23, 273, 1) // "m"
+QT_MOC_LITERAL(13, 144, 15), // "updateCommodity"
+QT_MOC_LITERAL(14, 160, 14), // "purchaseRecord"
+QT_MOC_LITERAL(15, 175, 11), // "closeRecord"
+QT_MOC_LITERAL(16, 187, 15), // "margoManagement"
+QT_MOC_LITERAL(17, 203, 20), // "closeMargoManagement"
+QT_MOC_LITERAL(18, 224, 8), // "addMargo"
+QT_MOC_LITERAL(19, 233, 11), // "removeMargo"
+QT_MOC_LITERAL(20, 245, 9), // "helpMargo"
+QT_MOC_LITERAL(21, 255, 14), // "setCurrentUser"
+QT_MOC_LITERAL(22, 270, 15), // "setShoppingCart"
+QT_MOC_LITERAL(23, 286, 4), // "cart"
+QT_MOC_LITERAL(24, 291, 7), // "setMask"
+QT_MOC_LITERAL(25, 299, 1) // "m"
 
     },
     "Simulator\0productPurchase\0\0authentication\0"
     "maskDetection\0deal\0searchShoppingCart\0"
     "ShoppingCart\0User\0us\0updateUser\0"
     "updateShoppingCart\0updateRecord\0"
-    "purchaseRecord\0closeRecord\0margoManagement\0"
+    "updateCommodity\0purchaseRecord\0"
+    "closeRecord\0margoManagement\0"
     "closeMargoManagement\0addMargo\0removeMargo\0"
-    "setCurrentUser\0setShoppingCart\0cart\0"
-    "setMask\0m"
+    "helpMargo\0setCurrentUser\0setShoppingCart\0"
+    "cart\0setMask\0m"
 };
 #undef QT_MOC_LITERAL
 
@@ -75,7 +78,7 @@ static const uint qt_meta_data_Simulator[] = {
        8,       // revision
        0,       // classname
        0,    0, // classinfo
-      17,   14, // methods
+      19,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -83,23 +86,25 @@ static const uint qt_meta_data_Simulator[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags
-       1,    0,   99,    2, 0x08 /* Private */,
-       3,    0,  100,    2, 0x08 /* Private */,
-       4,    0,  101,    2, 0x08 /* Private */,
-       5,    0,  102,    2, 0x08 /* Private */,
-       6,    1,  103,    2, 0x08 /* Private */,
-      10,    0,  106,    2, 0x08 /* Private */,
-      11,    0,  107,    2, 0x08 /* Private */,
-      12,    0,  108,    2, 0x08 /* Private */,
-      13,    0,  109,    2, 0x08 /* Private */,
-      14,    0,  110,    2, 0x08 /* Private */,
-      15,    0,  111,    2, 0x08 /* Private */,
-      16,    0,  112,    2, 0x08 /* Private */,
-      17,    0,  113,    2, 0x08 /* Private */,
-      18,    0,  114,    2, 0x08 /* Private */,
-      19,    1,  115,    2, 0x0a /* Public */,
-      20,    1,  118,    2, 0x0a /* Public */,
-      22,    1,  121,    2, 0x0a /* Public */,
+       1,    0,  109,    2, 0x08 /* Private */,
+       3,    0,  110,    2, 0x08 /* Private */,
+       4,    0,  111,    2, 0x08 /* Private */,
+       5,    0,  112,    2, 0x08 /* Private */,
+       6,    1,  113,    2, 0x08 /* Private */,
+      10,    0,  116,    2, 0x08 /* Private */,
+      11,    0,  117,    2, 0x08 /* Private */,
+      12,    0,  118,    2, 0x08 /* Private */,
+      13,    0,  119,    2, 0x08 /* Private */,
+      14,    0,  120,    2, 0x08 /* Private */,
+      15,    0,  121,    2, 0x08 /* Private */,
+      16,    0,  122,    2, 0x08 /* Private */,
+      17,    0,  123,    2, 0x08 /* Private */,
+      18,    0,  124,    2, 0x08 /* Private */,
+      19,    0,  125,    2, 0x08 /* Private */,
+      20,    0,  126,    2, 0x08 /* Private */,
+      21,    1,  127,    2, 0x0a /* Public */,
+      22,    1,  130,    2, 0x0a /* Public */,
+      24,    1,  133,    2, 0x0a /* Public */,
 
  // slots: parameters
     QMetaType::Void,
@@ -116,9 +121,11 @@ static const uint qt_meta_data_Simulator[] = {
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
     QMetaType::Void, 0x80000000 | 8,    9,
-    QMetaType::Void, 0x80000000 | 7,   21,
-    QMetaType::Void, QMetaType::Bool,   23,
+    QMetaType::Void, 0x80000000 | 7,   23,
+    QMetaType::Void, QMetaType::Bool,   25,
 
        0        // eod
 };
@@ -138,15 +145,17 @@ void Simulator::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, v
         case 5: _t->updateUser(); break;
         case 6: _t->updateShoppingCart(); break;
         case 7: _t->updateRecord(); break;
-        case 8: _t->purchaseRecord(); break;
-        case 9: _t->closeRecord(); break;
-        case 10: _t->margoManagement(); break;
-        case 11: _t->closeMargoManagement(); break;
-        case 12: _t->addMargo(); break;
-        case 13: _t->removeMargo(); break;
-        case 14: _t->setCurrentUser((*reinterpret_cast< User(*)>(_a[1]))); break;
-        case 15: _t->setShoppingCart((*reinterpret_cast< ShoppingCart(*)>(_a[1]))); break;
-        case 16: _t->setMask((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 8: _t->updateCommodity(); break;
+        case 9: _t->purchaseRecord(); break;
+        case 10: _t->closeRecord(); break;
+        case 11: _t->margoManagement(); break;
+        case 12: _t->closeMargoManagement(); break;
+        case 13: _t->addMargo(); break;
+        case 14: _t->removeMargo(); break;
+        case 15: _t->helpMargo(); break;
+        case 16: _t->setCurrentUser((*reinterpret_cast< User(*)>(_a[1]))); break;
+        case 17: _t->setShoppingCart((*reinterpret_cast< ShoppingCart(*)>(_a[1]))); break;
+        case 18: _t->setMask((*reinterpret_cast< bool(*)>(_a[1]))); break;
         default: ;
         }
     }
@@ -181,13 +190,13 @@ int Simulator::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 17)
+        if (_id < 19)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 17;
+        _id -= 19;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 17)
+        if (_id < 19)
             *reinterpret_cast<int*>(_a[0]) = -1;
-        _id -= 17;
+        _id -= 19;
     }
     return _id;
 }

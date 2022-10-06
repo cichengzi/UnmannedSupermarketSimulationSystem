@@ -101,6 +101,26 @@ void Simulator::maskDetection() {
     }
 }
 
+void Simulator::updateCommodity() {
+    Helper helper;
+    std::vector<Commodity> commodities = helper.readCommodities();
+    for (Commodity commodity: shoppingCart.getAllCommodities().getAllCommodities()) {
+        for (int i = 0; i < commodities.size(); i++) {
+            if (commodities[i].getName() == commodity.getName()) {
+                commodities[i].setNumber(commodities[i].getNumber() - commodity.getNumber());
+                break;
+            }
+        }
+    }
+    std::vector<Commodity> new_commodities;
+    for (Commodity commodity: commodities) {
+        if (commodity.getNumber() == 0)
+            continue;
+        new_commodities.push_back(commodity);
+    }
+    helper.saveCommodities(new_commodities);
+}
+
 void Simulator::deal() {
     if (mask && currentUser.getId() != 0) {
         double total_price = shoppingCart.getTotalPrice();
@@ -122,6 +142,8 @@ void Simulator::deal() {
 
             std::cout << "After update ShoppingCart:" << std::endl;
             std::cout << shoppingCart.toString() << std::endl;
+            updateCommodity(); // 更新commodities.txt
+
             updateShoppingCart(); // 清空shoppingCart并更新carts.txt
 
         } else {
@@ -261,39 +283,56 @@ void Simulator::closeRecord() {
 void Simulator::margoManagement() {
     if (mask && currentUser.getId() != 0 && currentUser.getUserType() == UserType::Administrator) {
         manageWidget = new QWidget();
-        manageWidget->setFixedSize(480, 720);
+        manageWidget->setFixedSize(240, 720);
         manageWidget->move(500, 200);
 
         picPathPrompt = new QLineEdit(manageWidget);
-        picPathPrompt->setText("请输入商品图片路径");
+        picPathPrompt->setPlaceholderText("请输入商品图片路径");
+        //picPathPrompt->setText("请输入商品图片路径");
         picPathPrompt->move(50, 50);
 
         namePrompt = new QLineEdit(manageWidget);
-        namePrompt->setText("请输入商品名称");
+        namePrompt->setPlaceholderText("请输入商品名称");
+        //namePrompt->setText("请输入商品名称");
         namePrompt->move(50, 150);
 
         pricePrompt = new QLineEdit(manageWidget);
-        pricePrompt->setText("请输入商品价格");
+        pricePrompt->setPlaceholderText("请输入商品价格");
+        //pricePrompt->setText("请输入商品价格");
         pricePrompt->move(50, 250);
 
         numberPrompt = new QLineEdit(manageWidget);
-        numberPrompt->setText("请输入商品数量");
+        numberPrompt->setPlaceholderText("请输入商品数量");
+        //numberPrompt->setText("请输入商品数量");
         numberPrompt->move(50, 350);
 
         descriptionPrompt = new QLineEdit(manageWidget);
-        descriptionPrompt->setText("请输入商品描述");
+        descriptionPrompt->setPlaceholderText("请输入商品描述");
+        //descriptionPrompt->setText("请输入商品描述");
         descriptionPrompt->move(50, 450);
 
         manageAddButton = new QPushButton(manageWidget);
-        manageAddButton->setText("添加");
-        manageAddButton->move(150, 550);
+        manageAddButton->setText("进货");
+        manageAddButton->move(60, 550);
 
         manageCloseButton = new QPushButton(manageWidget);
         manageCloseButton->setText("关闭");
-        manageCloseButton->move(50, 550);
+        manageCloseButton->move(10, 550);
+
+        manageSubButton = new QPushButton(manageWidget);
+        manageSubButton->setText("出货");
+        manageSubButton->move(110, 550);
+
+        manageHelpButton = new QPushButton(manageWidget);
+        manageHelpButton->setText("帮助");
+        manageHelpButton->move(160, 550);
 
         connect(manageCloseButton, &QPushButton::clicked, this, &Simulator::closeMargoManagement);
+        connect(manageAddButton, &QPushButton::clicked, this, &Simulator::addMargo);
+        connect(manageSubButton, &QPushButton::clicked, this, &Simulator::removeMargo);
+        connect(manageHelpButton, &QPushButton::clicked, this, &Simulator::helpMargo);
 
+        manageWidget->move(1460, 200);
         manageWidget->show();
     } else if (!mask) { // 如果没有通过口罩检测
         QMessageBox::warning(this, "警告", "请佩戴口罩");
@@ -353,10 +392,18 @@ void Simulator::addMargo() {
         double p = atof(price.c_str());
     }catch (char *e) {
         QMessageBox::warning(this, "警告", "商品价格不合法");
+        return;
     }
 
     if (number.length() == 0) {
         QMessageBox::warning(this, "警告", "商品数量不能为空");
+        return;
+    }
+
+    try {
+        int num = atoi(number.c_str());
+    }catch (char *e) {
+        QMessageBox::warning(this, "警告", "商品数量不合法");
         return;
     }
 
@@ -370,8 +417,10 @@ void Simulator::addMargo() {
             break;
         }
     }
+    Commodity commodity = Commodity(name, atof(price.c_str()), atoi(number.c_str()), description);
+    commodity.setPicPath(pic_path);
     if (add)
-        commodities.push_back(Commodity(name, atof(price.c_str()), atoi(number.c_str()), description));
+        commodities.push_back(commodity);
     helper.saveCommodities(commodities);
 
     QString title = QString::fromStdString("添加货物");
@@ -383,18 +432,71 @@ void Simulator::addMargo() {
 void Simulator::removeMargo() {
     Helper helper;
     std::string name = namePrompt->text().toStdString();
-    std::vector<Commodity> commodities = helper.readCommodities();
-    std::vector<Commodity> new_commodities;
-    for (Commodity c: commodities) {
-        if (c.getName() == name)
-            continue;
-        new_commodities.push_back(c);
+    std::string number = numberPrompt->text().toStdString();
+    if (name.length() == 0) {
+        QMessageBox::warning(this, "警告", "商品名称不能为空");
+        return;
     }
-    helper.saveCommodities(new_commodities);
+    Commodity commodity;
+    std::vector<Commodity> commodities = helper.readCommodities();
+    for (Commodity c: commodities) {
+        if (c.getName() == name) {
+            commodity = c;
+            break;
+        }
+    }
 
-    QString title = QString::fromStdString("删除货物");
-    QString content = QString::fromStdString("货物删除成功！");
+    if (commodity.getId() == 0) {
+        QMessageBox::warning(this, "警告", "不存在此名称的商品");
+        return;
+    }
+
+    if (number.length() == 0) {
+        std::vector<Commodity> new_commodities;
+        for (Commodity c: commodities) {
+            if (c.getName() == name)
+                continue;
+            new_commodities.push_back(c);
+        }
+        helper.saveCommodities(new_commodities);
+
+        QString title = QString::fromStdString("删除货物");
+        QString content = QString::fromStdString("货物删除成功！");
+        QString buttonText = QString::fromStdString("确定");
+        QMessageBox::information(this, title, content, buttonText);
+    } else {
+        try {
+            int num = atoi(number.c_str());
+            if (num > commodity.getNumber()) {
+                QMessageBox::warning(this, "警告", "不存在这么多的此商品");
+                return;
+            }
+            std::vector<Commodity> new_commodities;
+            for (Commodity c: commodities) {
+                if (c.getName() == name)
+                    continue;
+                new_commodities.push_back(c);
+            }
+            if (num < commodity.getNumber()) {
+                commodity.setNumber(commodity.getNumber() - num);
+                new_commodities.push_back(commodity);
+            }
+            helper.saveCommodities(new_commodities);
+            QString title = QString::fromStdString("出货");
+            QString content = QString::fromStdString("出货" + std::to_string(num) + "件成功！");
+            QString buttonText = QString::fromStdString("确定");
+            QMessageBox::information(this, title, content, buttonText);
+        }catch(char *e) {
+            QMessageBox::warning(this, "警告", "商品数量不合法");
+            return;
+        }
+    }
+}
+
+
+void Simulator::helpMargo() {
+    QString title = QString::fromStdString("进出货帮助");
+    QString content = QString::fromStdString("进行进货操作时，请合法填写所有信息！\n进行出货时，只需填写商品名称和商品数量，不填写商品数量默认全部出货！");
     QString buttonText = QString::fromStdString("确定");
     QMessageBox::information(this, title, content, buttonText);
 }
-
