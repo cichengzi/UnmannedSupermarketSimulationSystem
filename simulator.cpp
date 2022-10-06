@@ -106,7 +106,11 @@ void Simulator::deal() {
         double total_price = shoppingCart.getTotalPrice();
         if (total_price <= currentUser.getBalance()) {
             QString title = QString::fromStdString("商品结算");
-            QString content = QString::fromStdString("商品结算成功");
+            std::string content_str = "商品结算成功";
+            for (Commodity commodity: shoppingCart.getAllCommodities().getAllCommodities()) {
+                content_str += "\n" + commodity.getName() + " x " + std::to_string(commodity.getNumber());
+            }
+            QString content = QString::fromStdString(content_str);
             QString buttonText = QString::fromStdString("确定");
             QMessageBox::information(this, title, content, buttonText);
 
@@ -116,7 +120,7 @@ void Simulator::deal() {
             std::cout << shoppingCart.toString() << std::endl;
             updateRecord(); // 更新records.txt
 
-            std::cout << "Before update ShoppingCart:" << std::endl;
+            std::cout << "After update ShoppingCart:" << std::endl;
             std::cout << shoppingCart.toString() << std::endl;
             updateShoppingCart(); // 清空shoppingCart并更新carts.txt
 
