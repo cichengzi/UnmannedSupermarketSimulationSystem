@@ -24,6 +24,10 @@ public:
 
     User faceRecognize(std::string pic_path);
 
+    bool maskDetection();
+
+    User faceRecognize();
+
     std::vector<User> readUsers();
 
     std::vector<ShoppingCart> readShoppingCarts();

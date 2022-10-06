@@ -3,6 +3,7 @@
 #include<iostream>
 #include<cstring>
 
+
 std::string Helper::substring(std::string s, int begin) {
     std::string t;
     for (int i = 0; i < s.length(); i++) {
@@ -50,6 +51,17 @@ bool Helper::checkMask(std::string pic_path) {
     return pred == "mask";
 }
 
+bool Helper::maskDetection() {
+    system("/Users/cichengzi/miniforge3/envs/DL/bin/python ../MaskDetection/run_all.py");
+    FILE *fr = fopen("../MaskDetection/result.txt", "r");
+    char temp[100];
+    fgets(temp, 100, fr);
+    std::string result(temp);
+    if (result == "mask")
+        return true;
+    return false;
+}
+
 User Helper::faceRecognize(const std::string pic_path) {
     system(("/Users/cichengzi/miniforge3/envs/DL/bin/python ../FaceRecognition/face_vectorize.py " + pic_path).c_str());
     FILE *fr = fopen("../FaceRecognition/result.txt", "r");
@@ -58,6 +70,19 @@ User Helper::faceRecognize(const std::string pic_path) {
     temp[strlen(temp) - 1] = '\0';
     std::string user_name(temp);
     //std::cout << user_name << std::endl;
+    for (User user: readUsers()) {
+        if (user.getName() == user_name)
+            return user;
+    }
+    return User();
+}
+
+User Helper::faceRecognize() {
+    system("/Users/cichengzi/miniforge3/envs/DL/bin/python ../FaceRecognition/run_all.py");
+    FILE *fr = fopen("../FaceRecognition/result.txt", "r");
+    char temp[100];
+    fgets(temp, 100, fr);
+    std::string user_name(temp);
     for (User user: readUsers()) {
         if (user.getName() == user_name)
             return user;
