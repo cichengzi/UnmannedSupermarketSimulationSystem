@@ -23,6 +23,8 @@ Simulator::Simulator(QWidget *parent) :
     mask = false; // 设置口罩检测的状态，初始状态为未通过
     currentUser = User(); // 初始用户，id为0，象征未验证
     shoppingCart = ShoppingCart(currentUser); // 购物车的初始化
+    this->move(500, 200);
+    this->setWindowTitle("无人超市模拟系统");
 }
 
 Simulator::~Simulator() {
@@ -36,6 +38,7 @@ void Simulator::productPurchase() {
         productPurchase->setCurrentUser(currentUser); // 设置商品购买类中的currentUser
         productPurchase->setShoppingCart(searchShoppingCart(currentUser)); // 设置商品购买类中的shoppingCart
         productPurchase->show(); // 展示商品购买界面
+        productPurchase->move(500, 200);
         this->close(); // 关闭当前界面
     }
     else if (!mask) { // 如果没有通过口罩检测

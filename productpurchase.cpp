@@ -53,6 +53,7 @@ ProductPurchase::ProductPurchase(QWidget *parent) :
 
     showCart = false;
     shoppingCartWidget = NULL;
+    this->setWindowTitle("商品选购");
 }
 
 ProductPurchase::~ProductPurchase() {
@@ -147,6 +148,31 @@ void ProductPurchase::addCommodity() {
                 shoppingCartListWidget->setItemWidget(item, widget);
             }
         }
+        else {
+            showCart = true;
+            shoppingCartWidget = new QWidget();
+            shoppingCartWidget->setFixedSize(240, 720);
+            shoppingCartListWidget = new QListWidget(shoppingCartWidget);
+            shoppingCartListWidget->setFixedSize(240, 720);
+            for (Commodity c: shoppingCart.getAllCommodities().getAllCommodities()) {
+                QWidget *widget = new QWidget(shoppingCartWidget);
+                QHBoxLayout *layout = new QHBoxLayout();
+
+                layout->addWidget(new QLabel(QString::fromStdString(c.getName())));
+                layout->addWidget(new QLabel(QString::fromStdString(std::to_string(c.getNumber()))));
+
+                widget->setLayout(layout);
+
+                QListWidgetItem *item = new QListWidgetItem();
+                item->setSizeHint(QSize(240, 50));
+                shoppingCartListWidget->addItem(item);
+                shoppingCartListWidget->setItemWidget(item, widget);
+            }
+
+            shoppingCartWidget->move(1460, 200);
+            shoppingCartWidget->setWindowTitle("购物车");
+            shoppingCartWidget->show();
+        }
     }
 }
 
@@ -182,6 +208,31 @@ void ProductPurchase::removeCommodity() {
                 shoppingCartListWidget->addItem(item);
                 shoppingCartListWidget->setItemWidget(item, widget);
             }
+        }
+        else {
+            showCart = true;
+            shoppingCartWidget = new QWidget();
+            shoppingCartWidget->setFixedSize(240, 720);
+            shoppingCartListWidget = new QListWidget(shoppingCartWidget);
+            shoppingCartListWidget->setFixedSize(240, 720);
+            for (Commodity c: shoppingCart.getAllCommodities().getAllCommodities()) {
+                QWidget *widget = new QWidget(shoppingCartWidget);
+                QHBoxLayout *layout = new QHBoxLayout();
+
+                layout->addWidget(new QLabel(QString::fromStdString(c.getName())));
+                layout->addWidget(new QLabel(QString::fromStdString(std::to_string(c.getNumber()))));
+
+                widget->setLayout(layout);
+
+                QListWidgetItem *item = new QListWidgetItem();
+                item->setSizeHint(QSize(240, 50));
+                shoppingCartListWidget->addItem(item);
+                shoppingCartListWidget->setItemWidget(item, widget);
+            }
+
+            shoppingCartWidget->move(1460, 200);
+            shoppingCartWidget->setWindowTitle("购物车");
+            shoppingCartWidget->show();
         }
     }
 }
@@ -220,7 +271,11 @@ void ProductPurchase::showShoppingCart() {
             shoppingCartListWidget->setItemWidget(item, widget);
         }
 
+        shoppingCartWidget->move(1460, 200);
+        shoppingCartWidget->setWindowTitle("购物车");
         shoppingCartWidget->show();
+
+
     } else {
         showCart = false;
         if (shoppingCartWidget != NULL)
