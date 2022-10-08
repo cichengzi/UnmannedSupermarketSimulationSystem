@@ -48,7 +48,7 @@
 					<Add option="-DQT_GUI_LIB"/>
 					<Add option="-DQT_WIDGETS_LIB"/>
 					<Add directory="/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/cmake-build-debug/UnmannedSupermarketSimulationSystem_autogen/include"/>
-					<Add directory="/opt/homebrew/Cellar/opencv/4.5.5_2/include/opencv4"/>
+					<Add directory="/opt/homebrew/Cellar/opencv/4.6.0/include/opencv4"/>
 					<Add directory="/Users/cichengzi/miniforge3/include/qt"/>
 					<Add directory="/Users/cichengzi/miniforge3/include/qt/QtCore"/>
 					<Add directory="/Users/cichengzi/miniforge3/./mkspecs/macx-clang-arm64"/>
@@ -81,7 +81,7 @@
 					<Add option="-DQT_GUI_LIB"/>
 					<Add option="-DQT_WIDGETS_LIB"/>
 					<Add directory="/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/cmake-build-debug/UnmannedSupermarketSimulationSystem_autogen/include"/>
-					<Add directory="/opt/homebrew/Cellar/opencv/4.5.5_2/include/opencv4"/>
+					<Add directory="/opt/homebrew/Cellar/opencv/4.6.0/include/opencv4"/>
 					<Add directory="/Users/cichengzi/miniforge3/include/qt"/>
 					<Add directory="/Users/cichengzi/miniforge3/include/qt/QtCore"/>
 					<Add directory="/Users/cichengzi/miniforge3/./mkspecs/macx-clang-arm64"/>

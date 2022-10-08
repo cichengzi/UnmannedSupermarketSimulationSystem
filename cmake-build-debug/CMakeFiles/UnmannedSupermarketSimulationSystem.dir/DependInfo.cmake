@@ -31,7 +31,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "UnmannedSupermarketSimulationSystem_autogen/include"
-  "/opt/homebrew/Cellar/opencv/4.5.5_2/include/opencv4"
+  "/opt/homebrew/Cellar/opencv/4.6.0/include/opencv4"
   "/Users/cichengzi/miniforge3/include/qt"
   "/Users/cichengzi/miniforge3/include/qt/QtCore"
   "/Users/cichengzi/miniforge3/./mkspecs/macx-clang-arm64"
