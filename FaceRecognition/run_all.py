@@ -31,6 +31,8 @@ def compare(image_path1='temp.jpg'):
     best_class = None
     for root, dirs, files in os.walk('/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/FaceRecognition/faces'):
         for file in files:
+            if '.jpg' not in file:
+                continue
             class_name = file.split('_')[0]
             image_path2 = os.path.join(root, file)
             image2 = face_recognition.load_image_file(image_path2)
@@ -54,7 +56,6 @@ def face_recognize():
     pic_path = 'temp.jpg'
     for i in range(50):
         suc, img = cap.read()
-        cv2.imshow('Face Recognize', img)
         faces = get_all_faces(img)
         if len(faces) != 1:
             time.sleep(0.01)

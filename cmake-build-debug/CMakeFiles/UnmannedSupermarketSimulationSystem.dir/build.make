@@ -80,184 +80,184 @@ include CMakeFiles/UnmannedSupermarketSimulationSystem.dir/flags.make
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/UnmannedSupermarketSimulationSystem_autogen/mocs_compilation.cpp.o: CMakeFiles/UnmannedSupermarketSimulationSystem.dir/flags.make
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/UnmannedSupermarketSimulationSystem_autogen/mocs_compilation.cpp.o: UnmannedSupermarketSimulationSystem_autogen/mocs_compilation.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/UnmannedSupermarketSimulationSystem.dir/UnmannedSupermarketSimulationSystem_autogen/mocs_compilation.cpp.o"
-	/opt/homebrew/Cellar/gcc/11.3.0_1/bin/g++-11  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/UnmannedSupermarketSimulationSystem.dir/UnmannedSupermarketSimulationSystem_autogen/mocs_compilation.cpp.o -c /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/cmake-build-debug/UnmannedSupermarketSimulationSystem_autogen/mocs_compilation.cpp
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/UnmannedSupermarketSimulationSystem.dir/UnmannedSupermarketSimulationSystem_autogen/mocs_compilation.cpp.o -c /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/cmake-build-debug/UnmannedSupermarketSimulationSystem_autogen/mocs_compilation.cpp
 
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/UnmannedSupermarketSimulationSystem_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/UnmannedSupermarketSimulationSystem.dir/UnmannedSupermarketSimulationSystem_autogen/mocs_compilation.cpp.i"
-	/opt/homebrew/Cellar/gcc/11.3.0_1/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/cmake-build-debug/UnmannedSupermarketSimulationSystem_autogen/mocs_compilation.cpp > CMakeFiles/UnmannedSupermarketSimulationSystem.dir/UnmannedSupermarketSimulationSystem_autogen/mocs_compilation.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/cmake-build-debug/UnmannedSupermarketSimulationSystem_autogen/mocs_compilation.cpp > CMakeFiles/UnmannedSupermarketSimulationSystem.dir/UnmannedSupermarketSimulationSystem_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/UnmannedSupermarketSimulationSystem_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/UnmannedSupermarketSimulationSystem.dir/UnmannedSupermarketSimulationSystem_autogen/mocs_compilation.cpp.s"
-	/opt/homebrew/Cellar/gcc/11.3.0_1/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/cmake-build-debug/UnmannedSupermarketSimulationSystem_autogen/mocs_compilation.cpp -o CMakeFiles/UnmannedSupermarketSimulationSystem.dir/UnmannedSupermarketSimulationSystem_autogen/mocs_compilation.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/cmake-build-debug/UnmannedSupermarketSimulationSystem_autogen/mocs_compilation.cpp -o CMakeFiles/UnmannedSupermarketSimulationSystem.dir/UnmannedSupermarketSimulationSystem_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/main.cpp.o: CMakeFiles/UnmannedSupermarketSimulationSystem.dir/flags.make
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/main.cpp.o: ../main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/UnmannedSupermarketSimulationSystem.dir/main.cpp.o"
-	/opt/homebrew/Cellar/gcc/11.3.0_1/bin/g++-11  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/UnmannedSupermarketSimulationSystem.dir/main.cpp.o -c /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/main.cpp
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/UnmannedSupermarketSimulationSystem.dir/main.cpp.o -c /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/main.cpp
 
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/UnmannedSupermarketSimulationSystem.dir/main.cpp.i"
-	/opt/homebrew/Cellar/gcc/11.3.0_1/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/main.cpp > CMakeFiles/UnmannedSupermarketSimulationSystem.dir/main.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/main.cpp > CMakeFiles/UnmannedSupermarketSimulationSystem.dir/main.cpp.i
 
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/UnmannedSupermarketSimulationSystem.dir/main.cpp.s"
-	/opt/homebrew/Cellar/gcc/11.3.0_1/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/main.cpp -o CMakeFiles/UnmannedSupermarketSimulationSystem.dir/main.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/main.cpp -o CMakeFiles/UnmannedSupermarketSimulationSystem.dir/main.cpp.s
 
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/Commodity.cpp.o: CMakeFiles/UnmannedSupermarketSimulationSystem.dir/flags.make
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/Commodity.cpp.o: ../Commodity.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/UnmannedSupermarketSimulationSystem.dir/Commodity.cpp.o"
-	/opt/homebrew/Cellar/gcc/11.3.0_1/bin/g++-11  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/UnmannedSupermarketSimulationSystem.dir/Commodity.cpp.o -c /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/Commodity.cpp
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/UnmannedSupermarketSimulationSystem.dir/Commodity.cpp.o -c /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/Commodity.cpp
 
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/Commodity.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/UnmannedSupermarketSimulationSystem.dir/Commodity.cpp.i"
-	/opt/homebrew/Cellar/gcc/11.3.0_1/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/Commodity.cpp > CMakeFiles/UnmannedSupermarketSimulationSystem.dir/Commodity.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/Commodity.cpp > CMakeFiles/UnmannedSupermarketSimulationSystem.dir/Commodity.cpp.i
 
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/Commodity.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/UnmannedSupermarketSimulationSystem.dir/Commodity.cpp.s"
-	/opt/homebrew/Cellar/gcc/11.3.0_1/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/Commodity.cpp -o CMakeFiles/UnmannedSupermarketSimulationSystem.dir/Commodity.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/Commodity.cpp -o CMakeFiles/UnmannedSupermarketSimulationSystem.dir/Commodity.cpp.s
 
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/Node.cpp.o: CMakeFiles/UnmannedSupermarketSimulationSystem.dir/flags.make
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/Node.cpp.o: ../Node.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/UnmannedSupermarketSimulationSystem.dir/Node.cpp.o"
-	/opt/homebrew/Cellar/gcc/11.3.0_1/bin/g++-11  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/UnmannedSupermarketSimulationSystem.dir/Node.cpp.o -c /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/Node.cpp
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/UnmannedSupermarketSimulationSystem.dir/Node.cpp.o -c /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/Node.cpp
 
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/Node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/UnmannedSupermarketSimulationSystem.dir/Node.cpp.i"
-	/opt/homebrew/Cellar/gcc/11.3.0_1/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/Node.cpp > CMakeFiles/UnmannedSupermarketSimulationSystem.dir/Node.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/Node.cpp > CMakeFiles/UnmannedSupermarketSimulationSystem.dir/Node.cpp.i
 
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/Node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/UnmannedSupermarketSimulationSystem.dir/Node.cpp.s"
-	/opt/homebrew/Cellar/gcc/11.3.0_1/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/Node.cpp -o CMakeFiles/UnmannedSupermarketSimulationSystem.dir/Node.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/Node.cpp -o CMakeFiles/UnmannedSupermarketSimulationSystem.dir/Node.cpp.s
 
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/LinkedList.cpp.o: CMakeFiles/UnmannedSupermarketSimulationSystem.dir/flags.make
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/LinkedList.cpp.o: ../LinkedList.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/UnmannedSupermarketSimulationSystem.dir/LinkedList.cpp.o"
-	/opt/homebrew/Cellar/gcc/11.3.0_1/bin/g++-11  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/UnmannedSupermarketSimulationSystem.dir/LinkedList.cpp.o -c /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/LinkedList.cpp
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/UnmannedSupermarketSimulationSystem.dir/LinkedList.cpp.o -c /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/LinkedList.cpp
 
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/LinkedList.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/UnmannedSupermarketSimulationSystem.dir/LinkedList.cpp.i"
-	/opt/homebrew/Cellar/gcc/11.3.0_1/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/LinkedList.cpp > CMakeFiles/UnmannedSupermarketSimulationSystem.dir/LinkedList.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/LinkedList.cpp > CMakeFiles/UnmannedSupermarketSimulationSystem.dir/LinkedList.cpp.i
 
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/LinkedList.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/UnmannedSupermarketSimulationSystem.dir/LinkedList.cpp.s"
-	/opt/homebrew/Cellar/gcc/11.3.0_1/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/LinkedList.cpp -o CMakeFiles/UnmannedSupermarketSimulationSystem.dir/LinkedList.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/LinkedList.cpp -o CMakeFiles/UnmannedSupermarketSimulationSystem.dir/LinkedList.cpp.s
 
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/CommodityShelf.cpp.o: CMakeFiles/UnmannedSupermarketSimulationSystem.dir/flags.make
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/CommodityShelf.cpp.o: ../CommodityShelf.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/UnmannedSupermarketSimulationSystem.dir/CommodityShelf.cpp.o"
-	/opt/homebrew/Cellar/gcc/11.3.0_1/bin/g++-11  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/UnmannedSupermarketSimulationSystem.dir/CommodityShelf.cpp.o -c /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/CommodityShelf.cpp
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/UnmannedSupermarketSimulationSystem.dir/CommodityShelf.cpp.o -c /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/CommodityShelf.cpp
 
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/CommodityShelf.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/UnmannedSupermarketSimulationSystem.dir/CommodityShelf.cpp.i"
-	/opt/homebrew/Cellar/gcc/11.3.0_1/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/CommodityShelf.cpp > CMakeFiles/UnmannedSupermarketSimulationSystem.dir/CommodityShelf.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/CommodityShelf.cpp > CMakeFiles/UnmannedSupermarketSimulationSystem.dir/CommodityShelf.cpp.i
 
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/CommodityShelf.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/UnmannedSupermarketSimulationSystem.dir/CommodityShelf.cpp.s"
-	/opt/homebrew/Cellar/gcc/11.3.0_1/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/CommodityShelf.cpp -o CMakeFiles/UnmannedSupermarketSimulationSystem.dir/CommodityShelf.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/CommodityShelf.cpp -o CMakeFiles/UnmannedSupermarketSimulationSystem.dir/CommodityShelf.cpp.s
 
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/Supermarket.cpp.o: CMakeFiles/UnmannedSupermarketSimulationSystem.dir/flags.make
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/Supermarket.cpp.o: ../Supermarket.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/UnmannedSupermarketSimulationSystem.dir/Supermarket.cpp.o"
-	/opt/homebrew/Cellar/gcc/11.3.0_1/bin/g++-11  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/UnmannedSupermarketSimulationSystem.dir/Supermarket.cpp.o -c /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/Supermarket.cpp
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/UnmannedSupermarketSimulationSystem.dir/Supermarket.cpp.o -c /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/Supermarket.cpp
 
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/Supermarket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/UnmannedSupermarketSimulationSystem.dir/Supermarket.cpp.i"
-	/opt/homebrew/Cellar/gcc/11.3.0_1/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/Supermarket.cpp > CMakeFiles/UnmannedSupermarketSimulationSystem.dir/Supermarket.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/Supermarket.cpp > CMakeFiles/UnmannedSupermarketSimulationSystem.dir/Supermarket.cpp.i
 
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/Supermarket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/UnmannedSupermarketSimulationSystem.dir/Supermarket.cpp.s"
-	/opt/homebrew/Cellar/gcc/11.3.0_1/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/Supermarket.cpp -o CMakeFiles/UnmannedSupermarketSimulationSystem.dir/Supermarket.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/Supermarket.cpp -o CMakeFiles/UnmannedSupermarketSimulationSystem.dir/Supermarket.cpp.s
 
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/User.cpp.o: CMakeFiles/UnmannedSupermarketSimulationSystem.dir/flags.make
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/User.cpp.o: ../User.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/UnmannedSupermarketSimulationSystem.dir/User.cpp.o"
-	/opt/homebrew/Cellar/gcc/11.3.0_1/bin/g++-11  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/UnmannedSupermarketSimulationSystem.dir/User.cpp.o -c /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/User.cpp
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/UnmannedSupermarketSimulationSystem.dir/User.cpp.o -c /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/User.cpp
 
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/User.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/UnmannedSupermarketSimulationSystem.dir/User.cpp.i"
-	/opt/homebrew/Cellar/gcc/11.3.0_1/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/User.cpp > CMakeFiles/UnmannedSupermarketSimulationSystem.dir/User.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/User.cpp > CMakeFiles/UnmannedSupermarketSimulationSystem.dir/User.cpp.i
 
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/User.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/UnmannedSupermarketSimulationSystem.dir/User.cpp.s"
-	/opt/homebrew/Cellar/gcc/11.3.0_1/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/User.cpp -o CMakeFiles/UnmannedSupermarketSimulationSystem.dir/User.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/User.cpp -o CMakeFiles/UnmannedSupermarketSimulationSystem.dir/User.cpp.s
 
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/test.cpp.o: CMakeFiles/UnmannedSupermarketSimulationSystem.dir/flags.make
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/test.cpp.o: ../test.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/UnmannedSupermarketSimulationSystem.dir/test.cpp.o"
-	/opt/homebrew/Cellar/gcc/11.3.0_1/bin/g++-11  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/UnmannedSupermarketSimulationSystem.dir/test.cpp.o -c /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/test.cpp
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/UnmannedSupermarketSimulationSystem.dir/test.cpp.o -c /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/test.cpp
 
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/UnmannedSupermarketSimulationSystem.dir/test.cpp.i"
-	/opt/homebrew/Cellar/gcc/11.3.0_1/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/test.cpp > CMakeFiles/UnmannedSupermarketSimulationSystem.dir/test.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/test.cpp > CMakeFiles/UnmannedSupermarketSimulationSystem.dir/test.cpp.i
 
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/UnmannedSupermarketSimulationSystem.dir/test.cpp.s"
-	/opt/homebrew/Cellar/gcc/11.3.0_1/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/test.cpp -o CMakeFiles/UnmannedSupermarketSimulationSystem.dir/test.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/test.cpp -o CMakeFiles/UnmannedSupermarketSimulationSystem.dir/test.cpp.s
 
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/UseCase.cpp.o: CMakeFiles/UnmannedSupermarketSimulationSystem.dir/flags.make
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/UseCase.cpp.o: ../UseCase.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/UnmannedSupermarketSimulationSystem.dir/UseCase.cpp.o"
-	/opt/homebrew/Cellar/gcc/11.3.0_1/bin/g++-11  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/UnmannedSupermarketSimulationSystem.dir/UseCase.cpp.o -c /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/UseCase.cpp
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/UnmannedSupermarketSimulationSystem.dir/UseCase.cpp.o -c /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/UseCase.cpp
 
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/UseCase.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/UnmannedSupermarketSimulationSystem.dir/UseCase.cpp.i"
-	/opt/homebrew/Cellar/gcc/11.3.0_1/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/UseCase.cpp > CMakeFiles/UnmannedSupermarketSimulationSystem.dir/UseCase.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/UseCase.cpp > CMakeFiles/UnmannedSupermarketSimulationSystem.dir/UseCase.cpp.i
 
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/UseCase.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/UnmannedSupermarketSimulationSystem.dir/UseCase.cpp.s"
-	/opt/homebrew/Cellar/gcc/11.3.0_1/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/UseCase.cpp -o CMakeFiles/UnmannedSupermarketSimulationSystem.dir/UseCase.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/UseCase.cpp -o CMakeFiles/UnmannedSupermarketSimulationSystem.dir/UseCase.cpp.s
 
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/ShoppingCart.cpp.o: CMakeFiles/UnmannedSupermarketSimulationSystem.dir/flags.make
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/ShoppingCart.cpp.o: ../ShoppingCart.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/UnmannedSupermarketSimulationSystem.dir/ShoppingCart.cpp.o"
-	/opt/homebrew/Cellar/gcc/11.3.0_1/bin/g++-11  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/UnmannedSupermarketSimulationSystem.dir/ShoppingCart.cpp.o -c /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/ShoppingCart.cpp
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/UnmannedSupermarketSimulationSystem.dir/ShoppingCart.cpp.o -c /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/ShoppingCart.cpp
 
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/ShoppingCart.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/UnmannedSupermarketSimulationSystem.dir/ShoppingCart.cpp.i"
-	/opt/homebrew/Cellar/gcc/11.3.0_1/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/ShoppingCart.cpp > CMakeFiles/UnmannedSupermarketSimulationSystem.dir/ShoppingCart.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/ShoppingCart.cpp > CMakeFiles/UnmannedSupermarketSimulationSystem.dir/ShoppingCart.cpp.i
 
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/ShoppingCart.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/UnmannedSupermarketSimulationSystem.dir/ShoppingCart.cpp.s"
-	/opt/homebrew/Cellar/gcc/11.3.0_1/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/ShoppingCart.cpp -o CMakeFiles/UnmannedSupermarketSimulationSystem.dir/ShoppingCart.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/ShoppingCart.cpp -o CMakeFiles/UnmannedSupermarketSimulationSystem.dir/ShoppingCart.cpp.s
 
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/Helper.cpp.o: CMakeFiles/UnmannedSupermarketSimulationSystem.dir/flags.make
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/Helper.cpp.o: ../Helper.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/UnmannedSupermarketSimulationSystem.dir/Helper.cpp.o"
-	/opt/homebrew/Cellar/gcc/11.3.0_1/bin/g++-11  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/UnmannedSupermarketSimulationSystem.dir/Helper.cpp.o -c /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/Helper.cpp
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/UnmannedSupermarketSimulationSystem.dir/Helper.cpp.o -c /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/Helper.cpp
 
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/Helper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/UnmannedSupermarketSimulationSystem.dir/Helper.cpp.i"
-	/opt/homebrew/Cellar/gcc/11.3.0_1/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/Helper.cpp > CMakeFiles/UnmannedSupermarketSimulationSystem.dir/Helper.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/Helper.cpp > CMakeFiles/UnmannedSupermarketSimulationSystem.dir/Helper.cpp.i
 
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/Helper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/UnmannedSupermarketSimulationSystem.dir/Helper.cpp.s"
-	/opt/homebrew/Cellar/gcc/11.3.0_1/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/Helper.cpp -o CMakeFiles/UnmannedSupermarketSimulationSystem.dir/Helper.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/Helper.cpp -o CMakeFiles/UnmannedSupermarketSimulationSystem.dir/Helper.cpp.s
 
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/simulator.cpp.o: CMakeFiles/UnmannedSupermarketSimulationSystem.dir/flags.make
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/simulator.cpp.o: ../simulator.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/UnmannedSupermarketSimulationSystem.dir/simulator.cpp.o"
-	/opt/homebrew/Cellar/gcc/11.3.0_1/bin/g++-11  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/UnmannedSupermarketSimulationSystem.dir/simulator.cpp.o -c /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/simulator.cpp
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/UnmannedSupermarketSimulationSystem.dir/simulator.cpp.o -c /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/simulator.cpp
 
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/simulator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/UnmannedSupermarketSimulationSystem.dir/simulator.cpp.i"
-	/opt/homebrew/Cellar/gcc/11.3.0_1/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/simulator.cpp > CMakeFiles/UnmannedSupermarketSimulationSystem.dir/simulator.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/simulator.cpp > CMakeFiles/UnmannedSupermarketSimulationSystem.dir/simulator.cpp.i
 
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/simulator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/UnmannedSupermarketSimulationSystem.dir/simulator.cpp.s"
-	/opt/homebrew/Cellar/gcc/11.3.0_1/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/simulator.cpp -o CMakeFiles/UnmannedSupermarketSimulationSystem.dir/simulator.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/simulator.cpp -o CMakeFiles/UnmannedSupermarketSimulationSystem.dir/simulator.cpp.s
 
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/productpurchase.cpp.o: CMakeFiles/UnmannedSupermarketSimulationSystem.dir/flags.make
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/productpurchase.cpp.o: ../productpurchase.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/UnmannedSupermarketSimulationSystem.dir/productpurchase.cpp.o"
-	/opt/homebrew/Cellar/gcc/11.3.0_1/bin/g++-11  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/UnmannedSupermarketSimulationSystem.dir/productpurchase.cpp.o -c /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/productpurchase.cpp
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/UnmannedSupermarketSimulationSystem.dir/productpurchase.cpp.o -c /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/productpurchase.cpp
 
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/productpurchase.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/UnmannedSupermarketSimulationSystem.dir/productpurchase.cpp.i"
-	/opt/homebrew/Cellar/gcc/11.3.0_1/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/productpurchase.cpp > CMakeFiles/UnmannedSupermarketSimulationSystem.dir/productpurchase.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/productpurchase.cpp > CMakeFiles/UnmannedSupermarketSimulationSystem.dir/productpurchase.cpp.i
 
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/productpurchase.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/UnmannedSupermarketSimulationSystem.dir/productpurchase.cpp.s"
-	/opt/homebrew/Cellar/gcc/11.3.0_1/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/productpurchase.cpp -o CMakeFiles/UnmannedSupermarketSimulationSystem.dir/productpurchase.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/productpurchase.cpp -o CMakeFiles/UnmannedSupermarketSimulationSystem.dir/productpurchase.cpp.s
 
 # Object files for target UnmannedSupermarketSimulationSystem
 UnmannedSupermarketSimulationSystem_OBJECTS = \
@@ -295,64 +295,64 @@ UnmannedSupermarketSimulationSystem: CMakeFiles/UnmannedSupermarketSimulationSys
 UnmannedSupermarketSimulationSystem: CMakeFiles/UnmannedSupermarketSimulationSystem.dir/productpurchase.cpp.o
 UnmannedSupermarketSimulationSystem: CMakeFiles/UnmannedSupermarketSimulationSystem.dir/build.make
 UnmannedSupermarketSimulationSystem: /Users/cichengzi/miniforge3/lib/libQt5Widgets.5.15.2.dylib
-UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_gapi.4.5.5.dylib
-UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_stitching.4.5.5.dylib
-UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_alphamat.4.5.5.dylib
-UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_aruco.4.5.5.dylib
-UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_barcode.4.5.5.dylib
-UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_bgsegm.4.5.5.dylib
-UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_bioinspired.4.5.5.dylib
-UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_ccalib.4.5.5.dylib
-UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_dnn_objdetect.4.5.5.dylib
-UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_dnn_superres.4.5.5.dylib
-UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_dpm.4.5.5.dylib
-UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_face.4.5.5.dylib
-UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_freetype.4.5.5.dylib
-UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_fuzzy.4.5.5.dylib
-UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_hfs.4.5.5.dylib
-UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_img_hash.4.5.5.dylib
-UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_intensity_transform.4.5.5.dylib
-UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_line_descriptor.4.5.5.dylib
-UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_mcc.4.5.5.dylib
-UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_quality.4.5.5.dylib
-UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_rapid.4.5.5.dylib
-UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_reg.4.5.5.dylib
-UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_rgbd.4.5.5.dylib
-UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_saliency.4.5.5.dylib
-UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_sfm.4.5.5.dylib
-UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_stereo.4.5.5.dylib
-UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_structured_light.4.5.5.dylib
-UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_superres.4.5.5.dylib
-UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_surface_matching.4.5.5.dylib
-UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_tracking.4.5.5.dylib
-UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_videostab.4.5.5.dylib
-UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_viz.4.5.5.dylib
-UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_wechat_qrcode.4.5.5.dylib
-UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_xfeatures2d.4.5.5.dylib
-UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_xobjdetect.4.5.5.dylib
-UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_xphoto.4.5.5.dylib
+UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_gapi.4.6.0.dylib
+UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_stitching.4.6.0.dylib
+UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_alphamat.4.6.0.dylib
+UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_aruco.4.6.0.dylib
+UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_barcode.4.6.0.dylib
+UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_bgsegm.4.6.0.dylib
+UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_bioinspired.4.6.0.dylib
+UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_ccalib.4.6.0.dylib
+UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_dnn_objdetect.4.6.0.dylib
+UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_dnn_superres.4.6.0.dylib
+UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_dpm.4.6.0.dylib
+UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_face.4.6.0.dylib
+UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_freetype.4.6.0.dylib
+UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_fuzzy.4.6.0.dylib
+UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_hfs.4.6.0.dylib
+UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_img_hash.4.6.0.dylib
+UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_intensity_transform.4.6.0.dylib
+UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_line_descriptor.4.6.0.dylib
+UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_mcc.4.6.0.dylib
+UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_quality.4.6.0.dylib
+UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_rapid.4.6.0.dylib
+UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_reg.4.6.0.dylib
+UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_rgbd.4.6.0.dylib
+UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_saliency.4.6.0.dylib
+UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_sfm.4.6.0.dylib
+UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_stereo.4.6.0.dylib
+UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_structured_light.4.6.0.dylib
+UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_superres.4.6.0.dylib
+UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_surface_matching.4.6.0.dylib
+UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_tracking.4.6.0.dylib
+UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_videostab.4.6.0.dylib
+UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_viz.4.6.0.dylib
+UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_wechat_qrcode.4.6.0.dylib
+UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_xfeatures2d.4.6.0.dylib
+UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_xobjdetect.4.6.0.dylib
+UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_xphoto.4.6.0.dylib
 UnmannedSupermarketSimulationSystem: /Users/cichengzi/miniforge3/lib/libQt5Gui.5.15.2.dylib
 UnmannedSupermarketSimulationSystem: /Users/cichengzi/miniforge3/lib/libQt5Core.5.15.2.dylib
-UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_shape.4.5.5.dylib
-UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_highgui.4.5.5.dylib
-UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_datasets.4.5.5.dylib
-UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_plot.4.5.5.dylib
-UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_text.4.5.5.dylib
-UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_ml.4.5.5.dylib
-UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_phase_unwrapping.4.5.5.dylib
-UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_optflow.4.5.5.dylib
-UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_ximgproc.4.5.5.dylib
-UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_video.4.5.5.dylib
-UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_videoio.4.5.5.dylib
-UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_imgcodecs.4.5.5.dylib
-UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_objdetect.4.5.5.dylib
-UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_calib3d.4.5.5.dylib
-UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_dnn.4.5.5.dylib
-UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_features2d.4.5.5.dylib
-UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_flann.4.5.5.dylib
-UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_photo.4.5.5.dylib
-UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_imgproc.4.5.5.dylib
-UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_core.4.5.5.dylib
+UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_shape.4.6.0.dylib
+UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_highgui.4.6.0.dylib
+UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_datasets.4.6.0.dylib
+UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_plot.4.6.0.dylib
+UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_text.4.6.0.dylib
+UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_ml.4.6.0.dylib
+UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_phase_unwrapping.4.6.0.dylib
+UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_optflow.4.6.0.dylib
+UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_ximgproc.4.6.0.dylib
+UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_video.4.6.0.dylib
+UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_videoio.4.6.0.dylib
+UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_imgcodecs.4.6.0.dylib
+UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_objdetect.4.6.0.dylib
+UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_calib3d.4.6.0.dylib
+UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_dnn.4.6.0.dylib
+UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_features2d.4.6.0.dylib
+UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_flann.4.6.0.dylib
+UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_photo.4.6.0.dylib
+UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_imgproc.4.6.0.dylib
+UnmannedSupermarketSimulationSystem: /opt/homebrew/lib/libopencv_core.4.6.0.dylib
 UnmannedSupermarketSimulationSystem: CMakeFiles/UnmannedSupermarketSimulationSystem.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable UnmannedSupermarketSimulationSystem"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/UnmannedSupermarketSimulationSystem.dir/link.txt --verbose=$(VERBOSE)

@@ -3,7 +3,6 @@ import torch
 import numpy as np
 from FaceRecognition.config import *
 from FaceRecognition.model import get_best_model
-from FaceRecognition.utils import read_image, calc_sim
 
 
 def face_recognition(image):

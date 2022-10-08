@@ -19,7 +19,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/simulator.cpp" "/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/cmake-build-debug/CMakeFiles/UnmannedSupermarketSimulationSystem.dir/simulator.cpp.o"
   "/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/test.cpp" "/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/cmake-build-debug/CMakeFiles/UnmannedSupermarketSimulationSystem.dir/test.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX
