@@ -9,27 +9,26 @@
 
 class Node {
 private:
-    Commodity data;
-    Node *next;
+    Commodity data; // 结点类的商品信息
+    Node *next; // 下一个结点的指针
 
 public:
-    Node();
+    Node(); // 结点类的默认构造函数
 
-    Node(Commodity d);
+    Node(Commodity d); // 带参构造函数1
 
-    Node(Commodity d, Node *nt);
+    Node(Commodity d, Node *nt); // 带参构造函数2
 
-    Commodity getCommodity();
+    Commodity getCommodity(); // 获取当前结点的商品信息
 
-    Node* getNext();
+    Node* getNext(); // 获取当前结点的下一个结点的指针
 
-    std::string getName();
+    std::string getName(); // 获取当前结点的商品名称
 
-    void setCommodity(Commodity d);
+    void setCommodity(Commodity d); // 设置当前结点的商品
 
-    void setNext(Node* nt);
+    void setNext(Node* nt); // 设置当前结点的下一个结点的指针
 
-    void setCount(int num);
+    void setCount(int num); // 设置当前结点商品的数量
 };
-
 #endif //UNMANNEDSUPERMARKETSIMULATIONSYSTEM_NODE_H

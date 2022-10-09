@@ -19,6 +19,7 @@ Simulator::Simulator(QWidget *parent) :
     connect(ui->maskDetection, &QPushButton::clicked, this, &Simulator::maskDetection);
     connect(ui->purchaseRecord, &QPushButton::clicked, this, &Simulator::purchaseRecord);
     connect(ui->cargoManagement, &QPushButton::clicked, this, &Simulator::margoManagement);
+    connect(ui->addUser, &QPushButton::clicked, this, &Simulator::addUser);
 
     mask = false; // 设置口罩检测的状态，初始状态为未通过
     currentUser = User(); // 初始用户，id为0，象征未验证
@@ -225,6 +226,25 @@ void Simulator::updateRecord() {
     if (add)
         records.push_back(shoppingCart);
     helper.saveRecords(records);
+}
+
+void Simulator::faceCrawl() {
+    std::string user_name = faceNamePrompt->text().toStdString();
+    system(("/Users/cichengzi/miniforge3/envs/DL/bin/python ../FaceRecognition/add_faces.py " + user_name).c_str());
+    std::cout << "人脸采集完成" << std::endl;
+}
+
+void Simulator::addUser() {
+    addUserWidget = new QWidget();
+    addUserWidget->setFixedSize(240, 720);
+    faceCrawlButton = new QPushButton(addUserWidget);
+    faceNamePrompt = new QLineEdit(addUserWidget);
+    faceCrawlButton->setText("人脸采集");
+    connect(faceCrawlButton, &QPushButton::clicked, this, &Simulator::faceCrawl);
+    addUserWidget->move(1460, 200);
+    faceCrawlButton->move(80, 300);
+    faceNamePrompt->move(80, 150);
+    addUserWidget->show();
 }
 
 void Simulator::purchaseRecord() {
@@ -500,3 +520,4 @@ void Simulator::helpMargo() {
     QString buttonText = QString::fromStdString("确定");
     QMessageBox::information(this, title, content, buttonText);
 }
+

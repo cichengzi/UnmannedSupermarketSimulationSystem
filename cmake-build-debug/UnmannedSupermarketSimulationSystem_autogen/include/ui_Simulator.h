@@ -29,6 +29,7 @@ public:
     QPushButton *deal;
     QPushButton *purchaseRecord;
     QPushButton *cargoManagement;
+    QPushButton *addUser;
 
     void setupUi(QMainWindow *Simulator)
     {
@@ -58,6 +59,9 @@ public:
         cargoManagement = new QPushButton(centralWidget);
         cargoManagement->setObjectName(QString::fromUtf8("cargoManagement"));
         cargoManagement->setGeometry(QRect(440, 360, 141, 61));
+        addUser = new QPushButton(centralWidget);
+        addUser->setObjectName(QString::fromUtf8("addUser"));
+        addUser->setGeometry(QRect(440, 410, 141, 51));
         Simulator->setCentralWidget(centralWidget);
 
         retranslateUi(Simulator);
@@ -75,6 +79,7 @@ public:
         deal->setText(QCoreApplication::translate("Simulator", "\345\225\206\345\223\201\347\273\223\347\256\227", nullptr));
         purchaseRecord->setText(QCoreApplication::translate("Simulator", "\350\264\255\344\271\260\350\256\260\345\275\225", nullptr));
         cargoManagement->setText(QCoreApplication::translate("Simulator", "\350\277\233\345\207\272\350\264\247\347\256\241\347\220\206", nullptr));
+        addUser->setText(QCoreApplication::translate("Simulator", "\346\267\273\345\212\240\347\224\250\346\210\267", nullptr));
     } // retranslateUi
 
 };

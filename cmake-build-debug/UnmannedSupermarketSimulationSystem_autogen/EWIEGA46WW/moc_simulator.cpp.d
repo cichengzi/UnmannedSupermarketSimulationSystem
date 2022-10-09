@@ -1,32 +1,93 @@
 /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/cmake-build-debug/UnmannedSupermarketSimulationSystem_autogen/EWIEGA46WW/moc_simulator.cpp: /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/simulator.h \
   /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/cmake-build-debug/UnmannedSupermarketSimulationSystem_autogen/moc_predefs.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/TargetConditionals.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/__wctype.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_ctermid.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_ctype.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_locale.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_stdio.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types/_wctrans_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types/_wctype_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_wctype.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/arm/_types.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/arm/types.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/assert.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/ctype.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/locale.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__availability \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__bit_reference \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__bits \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__debug \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__errc \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional_03 \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional_base \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional_base_03 \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/allocator_traits.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/base.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/pointer_traits.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/utilities.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__mutex_base \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__node_handle \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__nullptr \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__split_buffer \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__string \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__threading_support \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__tree \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__tuple \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__undef_macros \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/algorithm \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/bit \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cassert \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cctype \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cerrno \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/climits \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cmath \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cstddef \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdint \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdio \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdlib \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cstring \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ctime \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ctype.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cwchar \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cwctype \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/errno.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/exception \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/functional \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/initializer_list \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/iosfwd \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/iterator \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/limits \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/limits.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/list \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/map \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/math.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/memory \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/mutex \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/new \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/numeric \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/optional \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ratio \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/stddef.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/stdexcept \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/stdint.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/stdio.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/stdlib.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/string \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/string.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/string_view \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/system_error \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/tuple \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/type_traits \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/typeinfo \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/utility \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/vector \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/version \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/wchar.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/wctype.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/machine/_types.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/machine/types.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/pthread/pthread.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/pthread/pthread_impl.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/pthread/qos.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/pthread/sched.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/runetype.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/string.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/strings.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_posix_availability.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_attr_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_cond_t.h \
@@ -42,22 +103,15 @@
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_symbol_aliasing.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_clock_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_ct_rune_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_errno_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_int16_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_int32_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_int64_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_int8_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_intptr_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_mach_port_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_mbstate_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_null.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_off_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_rsize_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_rune_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_sigset_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_size_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_ssize_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_time_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_timespec.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int16_t.h \
@@ -65,15 +119,10 @@
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int64_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int8_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_uintptr_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_va_list.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_wchar_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_wint_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/cdefs.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/qos.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/stdio.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/time.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/wchar.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/wctype.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include/stdarg.h \
   /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/Commodity.h \
   /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/LinkedList.h \
   /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/Node.h \
@@ -83,7 +132,6 @@
   /Users/cichengzi/miniforge3/include/qt/QtCore/qalgorithms.h \
   /Users/cichengzi/miniforge3/include/qt/QtCore/qarraydata.h \
   /Users/cichengzi/miniforge3/include/qt/QtCore/qatomic.h \
-  /Users/cichengzi/miniforge3/include/qt/QtCore/qatomic_cxx11.h \
   /Users/cichengzi/miniforge3/include/qt/QtCore/qbasicatomic.h \
   /Users/cichengzi/miniforge3/include/qt/QtCore/qbytearray.h \
   /Users/cichengzi/miniforge3/include/qt/QtCore/qbytearraylist.h \
@@ -94,7 +142,6 @@
   /Users/cichengzi/miniforge3/include/qt/QtCore/qcontainertools_impl.h \
   /Users/cichengzi/miniforge3/include/qt/QtCore/qdatastream.h \
   /Users/cichengzi/miniforge3/include/qt/QtCore/qflags.h \
-  /Users/cichengzi/miniforge3/include/qt/QtCore/qgenericatomic.h \
   /Users/cichengzi/miniforge3/include/qt/QtCore/qglobal.h \
   /Users/cichengzi/miniforge3/include/qt/QtCore/qglobalstatic.h \
   /Users/cichengzi/miniforge3/include/qt/QtCore/qhash.h \
@@ -197,165 +244,4 @@
   /Users/cichengzi/miniforge3/include/qt/QtWidgets/qtextedit.h \
   /Users/cichengzi/miniforge3/include/qt/QtWidgets/qtwidgets-config.h \
   /Users/cichengzi/miniforge3/include/qt/QtWidgets/qtwidgetsglobal.h \
-  /Users/cichengzi/miniforge3/include/qt/QtWidgets/qwidget.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/aarch64-apple-darwin21/bits/atomic_word.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/aarch64-apple-darwin21/bits/c++allocator.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/aarch64-apple-darwin21/bits/c++config.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/aarch64-apple-darwin21/bits/c++locale.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/aarch64-apple-darwin21/bits/cpu_defines.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/aarch64-apple-darwin21/bits/ctype_base.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/aarch64-apple-darwin21/bits/ctype_inline.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/aarch64-apple-darwin21/bits/gthr-default.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/aarch64-apple-darwin21/bits/gthr.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/aarch64-apple-darwin21/bits/os_defines.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/algorithm \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/array \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/atomic \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/backward/auto_ptr.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/backward/binders.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bit \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/algorithmfwd.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/align.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/alloc_traits.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/allocated_ptr.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/allocator.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/atomic_base.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/atomic_lockfree_defines.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/atomic_wait.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/basic_ios.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/basic_ios.tcc \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/basic_string.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/basic_string.tcc \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/c++0x_warning.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/char_traits.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/charconv.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/concept_check.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/cpp_type_traits.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/cxxabi_forced.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/cxxabi_init_exception.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/erase_if.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/exception.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/exception_defines.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/exception_ptr.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/functexcept.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/functional_hash.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/hash_bytes.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/invoke.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/ios_base.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/iterator_concepts.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/list.tcc \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/locale_classes.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/locale_classes.tcc \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/locale_facets.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/locale_facets.tcc \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/localefwd.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/max_size_type.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/memoryfwd.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/move.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/nested_exception.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/node_handle.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/ostream.tcc \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/ostream_insert.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/postypes.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/predefined_ops.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/ptr_traits.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/range_access.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/ranges_algo.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/ranges_algobase.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/ranges_base.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/ranges_cmp.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/ranges_uninitialized.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/ranges_util.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/refwrap.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/shared_ptr.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/shared_ptr_atomic.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/shared_ptr_base.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/std_abs.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/std_function.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/std_mutex.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/stl_algo.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/stl_algobase.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/stl_bvector.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/stl_construct.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/stl_function.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/stl_heap.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/stl_iterator.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/stl_iterator_base_funcs.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/stl_iterator_base_types.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/stl_list.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/stl_map.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/stl_multimap.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/stl_numeric.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/stl_pair.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/stl_raw_storage_iter.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/stl_relops.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/stl_tempbuf.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/stl_tree.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/stl_uninitialized.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/stl_vector.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/stream_iterator.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/streambuf.tcc \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/streambuf_iterator.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/string_view.tcc \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/stringfwd.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/uniform_int_dist.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/unique_ptr.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/uses_allocator.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/uses_allocator_args.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/bits/vector.tcc \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/cctype \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/clocale \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/compare \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/concepts \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/cstddef \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/cstdint \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/cstdlib \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/cwchar \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/cwctype \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/debug/assertions.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/debug/debug.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/exception \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/ext/aligned_buffer.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/ext/alloc_traits.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/ext/atomicity.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/ext/concurrence.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/ext/new_allocator.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/ext/numeric_traits.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/ext/string_conversions.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/ext/type_traits.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/functional \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/initializer_list \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/ios \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/iosfwd \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/iterator \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/limits \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/list \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/map \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/memory \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/mutex \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/new \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/numbers \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/numeric \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/ostream \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/pstl/execution_defs.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/pstl/glue_algorithm_defs.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/pstl/glue_memory_defs.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/pstl/glue_numeric_defs.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/stdexcept \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/stdlib.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/streambuf \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/string \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/string_view \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/tuple \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/type_traits \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/typeinfo \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/unordered_map \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/utility \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/include/c++/11/vector \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/lib/gcc/11/gcc/aarch64-apple-darwin21/11/include-fixed/AvailabilityInternal.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/lib/gcc/11/gcc/aarch64-apple-darwin21/11/include-fixed/limits.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/lib/gcc/11/gcc/aarch64-apple-darwin21/11/include-fixed/stdio.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/lib/gcc/11/gcc/aarch64-apple-darwin21/11/include-fixed/syslimits.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/lib/gcc/11/gcc/aarch64-apple-darwin21/11/include/stdarg.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/lib/gcc/11/gcc/aarch64-apple-darwin21/11/include/stddef.h \
-  /opt/homebrew/Cellar/gcc/11.3.0_1/lib/gcc/11/gcc/aarch64-apple-darwin21/11/include/stdint.h
+  /Users/cichengzi/miniforge3/include/qt/QtWidgets/qwidget.h

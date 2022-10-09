@@ -20,9 +20,9 @@ class Simulator : public QMainWindow {
 Q_OBJECT
 
 public:
-    explicit Simulator(QWidget *parent = nullptr);
+    explicit Simulator(QWidget *parent = nullptr); // 默认构造函数
 
-    ~Simulator() override;
+    ~Simulator() override; // 析构函数
 
 private slots:
 
@@ -34,29 +34,33 @@ private slots:
 
     void deal(); // 商品结算的界面
 
-    ShoppingCart searchShoppingCart(User us);
+    ShoppingCart searchShoppingCart(User us); // 搜索用户为us的购物车
 
-    void updateUser();
+    void updateUser(); // 更新users.txt
 
-    void updateShoppingCart();
+    void updateShoppingCart(); // 更新carts.txt
 
-    void updateRecord();
+    void updateRecord(); // 更新records.txt
 
-    void updateCommodity();
+    void updateCommodity(); // 更新commodities.txt
 
     void purchaseRecord(); // 购买记录的界面
 
-    void closeRecord();
+    void closeRecord(); // 关闭购买记录界面
 
-    void margoManagement();
+    void margoManagement(); // 进出货管理界面
 
-    void closeMargoManagement();
+    void closeMargoManagement(); // 关闭进出货管理界面
 
-    void addMargo();
+    void addMargo(); // 添加货物
 
-    void removeMargo();
+    void removeMargo(); // 移除货物
 
-    void helpMargo();
+    void helpMargo(); // 帮助界面
+
+    void addUser(); // 添加用户界面
+
+    void faceCrawl(); // 人脸采集
 
 public slots:
     void setCurrentUser(User us); // 设置currentUser
@@ -74,17 +78,19 @@ private:
     QWidget* recordWidget; // 购买记录控件
     QListWidget* recordListWidget; // 购买记录列表控件
     QPushButton* recordButton; // 返回控件
-
     QWidget* manageWidget; // 进出货管理控件
-    QLineEdit* picPathPrompt;
-    QLineEdit* namePrompt;
-    QLineEdit* pricePrompt;
-    QLineEdit* numberPrompt;
-    QLineEdit* descriptionPrompt;
-    QPushButton* manageAddButton;
-    QPushButton* manageCloseButton;
-    QPushButton* manageSubButton;
-    QPushButton* manageHelpButton;
+    QWidget* addUserWidget; // 添加用户界面
+    QLineEdit* picPathPrompt; // 商品图片路径输入栏
+    QLineEdit* namePrompt; // 商品名称输入栏
+    QLineEdit* pricePrompt; // 商品价格输入栏
+    QLineEdit* numberPrompt; // 商品数量输入栏
+    QLineEdit* descriptionPrompt; // 商品描述输入栏
+    QPushButton* manageAddButton; // 商品添加按钮
+    QPushButton* manageCloseButton; // 界面关闭按钮
+    QPushButton* manageSubButton; // 商品移除按钮
+    QPushButton* manageHelpButton; // 帮助按钮
+    QPushButton* faceCrawlButton; // 人脸采集按钮
+    QLineEdit* faceNamePrompt; // 人脸姓名输入栏
     bool DEBUG = true; // 如果是debug模式的话，不用口罩检测和人脸识别
 };
 

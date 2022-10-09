@@ -19,39 +19,39 @@ class ProductPurchase : public QWidget {
 Q_OBJECT
 
 public:
-    explicit ProductPurchase(QWidget *parent = nullptr);
+    explicit ProductPurchase(QWidget *parent = nullptr); // 默认构造函数
 
-    ~ProductPurchase() override;
+    ~ProductPurchase() override; // 析构函数
 
 private slots:
 
-    void returnBack();
+    void returnBack(); // 返回主界面
 
-    void currentItem();
+    void currentItem(); // 显示当前选中栏的元素
 
-    void saveShoppingCart();
+    void saveShoppingCart(); // 保存购物车信息到carts.txt
 
-    void addCommodity();
+    void addCommodity(); // 添加商品到购物车
 
-    void removeCommodity();
+    void removeCommodity(); // 从购物车中移除商品
 
-    void showShoppingCart();
+    void showShoppingCart(); // 展示购物车信息
 
 public slots:
-    void setCurrentUser(User us);
+    void setCurrentUser(User us); // 设置当前用户为us
 
-    void setShoppingCart(ShoppingCart cart);
+    void setShoppingCart(ShoppingCart cart); // 设置当前购物车为cart
 
-    void loadShoppingCart();
+    void loadShoppingCart(); // 从carts.txt中找出用户us对应的购物车
 
 private:
-    Ui::ProductPurchase *ui;
-    User currentUser;
-    ShoppingCart shoppingCart;
-    CommodityShelf commodityShelf;
+    Ui::ProductPurchase *ui; // 当前界面的ui
+    User currentUser; // 当前用户
+    ShoppingCart shoppingCart; // 当前用户对应的购物车
+    CommodityShelf commodityShelf; // 商品货架类
     bool showCart; // 是否显示购物车🛒
-    QWidget* shoppingCartWidget;
-    QListWidget* shoppingCartListWidget;
+    QWidget* shoppingCartWidget; // 购物车界面的ui
+    QListWidget* shoppingCartListWidget; // 购物车商品列表的ui
 };
 
 #endif //UNMANNEDSUPERMARKETSIMULATIONSYSTEM_PRODUCTPURCHASE_H

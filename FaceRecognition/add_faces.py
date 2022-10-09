@@ -6,6 +6,7 @@ import dlib
 import os
 import time
 import numpy as np
+import sys
 
 
 def get_all_faces(image):
@@ -44,4 +45,10 @@ def add_faces(user_name):
     print(f'finally add {cnt} faces.')
 
 
-add_faces('宋羽飞')
+if __name__ == '__main__':
+    args = sys.argv
+    if len(args) != 2:
+        print('invalid argument!')
+        exit(0)
+    user_name = args[1]
+    add_faces(user_name)
