@@ -62,6 +62,10 @@ private slots:
 
     void faceCrawl(); // 人脸采集
 
+    void newUser(); // 添加新用户
+
+    void bestSell(); // 统计最热销的商品
+
 public slots:
     void setCurrentUser(User us); // 设置currentUser
 
@@ -91,6 +95,8 @@ private:
     QPushButton* manageHelpButton; // 帮助按钮
     QPushButton* faceCrawlButton; // 人脸采集按钮
     QLineEdit* faceNamePrompt; // 人脸姓名输入栏
+    QLineEdit* userTypePrompt; // 用户类型输入栏
+    QLineEdit* balancePrompt; // 用户余额输入栏
     bool DEBUG = true; // 如果是debug模式的话，不用口罩检测和人脸识别
 };
 

@@ -1,4 +1,5 @@
 #include"Commodity.h"
+#include"Helper.h"
 
 Commodity::Commodity() {
     pic_path = "/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/resources/img.png";
@@ -10,10 +11,12 @@ Commodity::Commodity() {
 }
 
 Commodity::Commodity(std::string nm, double p, int nb, std::string d) {
+    Helper helper;
     pic_path = "/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/resources/img.png";
     name = nm;
     price = p;
     number = nb;
+    idx = atoll(helper.currentTimeStamp().c_str());
     description = d;
 }
 

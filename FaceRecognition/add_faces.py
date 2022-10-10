@@ -37,7 +37,7 @@ def add_faces(user_name):
         print(f'epoch {i + 1}, add faces...')
         face = faces[0]
         face = cv2.cvtColor(face, cv2.COLOR_GRAY2BGR)
-        path = os.path.join('faces', f'{user_name}_{str(cnt + 1)}.jpg')
+        path = os.path.join('/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/FaceRecognition/faces', f'{user_name}_{str(cnt + 1)}.jpg')
         cnt += 1
         plt.imsave(path, face)
         if cnt == 10:

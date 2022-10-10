@@ -30,6 +30,7 @@ public:
     QPushButton *purchaseRecord;
     QPushButton *cargoManagement;
     QPushButton *addUser;
+    QPushButton *count;
 
     void setupUi(QMainWindow *Simulator)
     {
@@ -62,6 +63,9 @@ public:
         addUser = new QPushButton(centralWidget);
         addUser->setObjectName(QString::fromUtf8("addUser"));
         addUser->setGeometry(QRect(440, 410, 141, 51));
+        count = new QPushButton(centralWidget);
+        count->setObjectName(QString::fromUtf8("count"));
+        count->setGeometry(QRect(440, 450, 141, 51));
         Simulator->setCentralWidget(centralWidget);
 
         retranslateUi(Simulator);
@@ -80,6 +84,7 @@ public:
         purchaseRecord->setText(QCoreApplication::translate("Simulator", "\350\264\255\344\271\260\350\256\260\345\275\225", nullptr));
         cargoManagement->setText(QCoreApplication::translate("Simulator", "\350\277\233\345\207\272\350\264\247\347\256\241\347\220\206", nullptr));
         addUser->setText(QCoreApplication::translate("Simulator", "\346\267\273\345\212\240\347\224\250\346\210\267", nullptr));
+        count->setText(QCoreApplication::translate("Simulator", "\347\203\255\351\224\200\345\225\206\345\223\201", nullptr));
     } // retranslateUi
 
 };

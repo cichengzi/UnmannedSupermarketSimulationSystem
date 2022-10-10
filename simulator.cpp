@@ -9,6 +9,7 @@
 #include<QLineEdit>
 #include<fstream>
 #include<exception>
+#include<map>
 
 Simulator::Simulator(QWidget *parent) :
         QMainWindow(parent), ui(new Ui::Simulator) {
@@ -20,6 +21,7 @@ Simulator::Simulator(QWidget *parent) :
     connect(ui->purchaseRecord, &QPushButton::clicked, this, &Simulator::purchaseRecord);
     connect(ui->cargoManagement, &QPushButton::clicked, this, &Simulator::margoManagement);
     connect(ui->addUser, &QPushButton::clicked, this, &Simulator::addUser);
+    connect(ui->count, &QPushButton::clicked, this, &Simulator::bestSell);
 
     mask = false; // 设置口罩检测的状态，初始状态为未通过
     currentUser = User(); // 初始用户，id为0，象征未验证
@@ -230,8 +232,66 @@ void Simulator::updateRecord() {
 
 void Simulator::faceCrawl() {
     std::string user_name = faceNamePrompt->text().toStdString();
+    if (user_name.length() == 0) {
+        QString title = "人脸采集";
+        QString content = "人脸采集失败";
+        QString buttonText = "确定";
+        QMessageBox::information(this, title, content, buttonText);
+        return;
+    }
     system(("/Users/cichengzi/miniforge3/envs/DL/bin/python ../FaceRecognition/add_faces.py " + user_name).c_str());
-    std::cout << "人脸采集完成" << std::endl;
+    QString title = "人脸采集";
+    QString content = "人脸采集成功";
+    QString buttonText = "确定";
+    QMessageBox::warning(this, title, content, buttonText);
+}
+
+void Simulator::newUser() {
+    try {
+        std::string face_name = faceNamePrompt->text().toStdString();
+        std::string user_type = userTypePrompt->text().toStdString();
+        std::string balance = balancePrompt->text().toStdString();
+        if (face_name.length() == 0) {
+            QMessageBox::warning(this, "警告", "姓名不能为空");
+            return;
+        }
+        UserType ut;
+        if (user_type[0] == 'a' || user_type[0] == 'A') {
+            ut = UserType::Administrator;
+        } else if (user_type[0] == 'g' || user_type[0] == 'G') {
+            ut = UserType::GeneralUser;
+        } else {
+            QMessageBox::warning(this, "警告", "用户类型不合法");
+            return;
+        }
+        double b = atof(balance.c_str());
+        User user = User(face_name, ut, b);
+        Helper helper;
+        std::vector<User> users = helper.readUsers();
+        bool add = true;
+        for (User us: users) {
+            if (us.getName() == user.getName()) {
+                add = false;
+                break;
+            }
+        }
+        if (add)
+            users.push_back(user);
+        helper.saveUsers(users);
+        QString title = QString::fromStdString("添加用户");
+        QString content = QString::fromStdString("添加用户成功");
+        QString buttonText = QString::fromStdString("确定");
+        QMessageBox::information(this, title, content, buttonText);
+
+        faceNamePrompt->clear();
+        userTypePrompt->clear();
+        balancePrompt->clear();
+    } catch (char *e) {
+        QString title = QString::fromStdString("添加用户");
+        QString content = QString::fromStdString("添加用户失败");
+        QString buttonText = QString::fromStdString("确定");
+        QMessageBox::information(this, title, content, buttonText);
+    }
 }
 
 void Simulator::addUser() {
@@ -239,11 +299,35 @@ void Simulator::addUser() {
     addUserWidget->setFixedSize(240, 720);
     faceCrawlButton = new QPushButton(addUserWidget);
     faceNamePrompt = new QLineEdit(addUserWidget);
+    faceNamePrompt->setPlaceholderText("请输入姓名");
     faceCrawlButton->setText("人脸采集");
+    QLabel* faceNameLabel = new QLabel(addUserWidget);
+    faceNameLabel->setText("姓名");
+    QLabel* userTypeLabel = new QLabel(addUserWidget);
+    userTypeLabel->setText("用户类型");
+    userTypePrompt = new QLineEdit(addUserWidget);
+    userTypePrompt->setPlaceholderText("Admin/GeneralUser");
+    QLabel* balanceLabel = new QLabel(addUserWidget);
+    balanceLabel->setText("用户余额");
+    balancePrompt = new QLineEdit(addUserWidget);
+    balancePrompt->setPlaceholderText("请输入用户余额");
+    QPushButton* newUserButton = new QPushButton(addUserWidget);
+    newUserButton->setText("添加用户");
+
     connect(faceCrawlButton, &QPushButton::clicked, this, &Simulator::faceCrawl);
+    connect(newUserButton, &QPushButton::clicked, this, &Simulator::newUser);
     addUserWidget->move(1460, 200);
-    faceCrawlButton->move(80, 300);
     faceNamePrompt->move(80, 150);
+    faceNameLabel->move(30, 150);
+
+    userTypeLabel->move(20, 200);
+    userTypePrompt->move(80, 200);
+
+    balanceLabel->move(20, 250);
+    balancePrompt->move(80, 250);
+
+    faceCrawlButton->move(80, 300);
+    newUserButton->move(80, 350);
     addUserWidget->show();
 }
 
@@ -513,7 +597,6 @@ void Simulator::removeMargo() {
     }
 }
 
-
 void Simulator::helpMargo() {
     QString title = QString::fromStdString("进出货帮助");
     QString content = QString::fromStdString("进行进货操作时，请合法填写所有信息！\n进行出货时，只需填写商品名称和商品数量，不填写商品数量默认全部出货！");
@@ -521,3 +604,32 @@ void Simulator::helpMargo() {
     QMessageBox::information(this, title, content, buttonText);
 }
 
+bool item_cmp(std::pair<std::string, int> a, std::pair<std::string, int> b) {
+    return a.second > b.second;
+}
+
+void Simulator::bestSell() {
+    Helper helper;
+    std::map<std::string, int> nums;
+    for (ShoppingCart sc: helper.readRecords()) {
+        for (Commodity c: sc.getAllCommodities().getAllCommodities()) {
+            nums[c.getName()] = nums[c.getName()] + c.getNumber();
+        }
+    }
+    std::vector<std::pair<std::string, int>> items;
+    for (std::pair<std::string, int> num: nums) {
+        items.push_back(num);
+    }
+    std::sort(items.begin(), items.end(), item_cmp);
+    QString title = "最热销的商品前十";
+    std::string content_string = "";
+    for (int i = 0; i < items.size() && i < 10; i++) {
+        if (content_string.length() == 0)
+            content_string += items[i].first + "(" + std::to_string(items[i].second) + ")";
+        else
+            content_string += "\n" + items[i].first + "(" + std::to_string(items[i].second) + ")";
+    }
+    QString content = QString::fromStdString(content_string);
+    QString buttonText = "确定";
+    QMessageBox::information(this, title, content, buttonText);
+}

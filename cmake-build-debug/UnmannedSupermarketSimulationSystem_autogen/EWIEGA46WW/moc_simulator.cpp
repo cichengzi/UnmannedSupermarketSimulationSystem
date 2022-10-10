@@ -22,8 +22,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_Simulator_t {
-    QByteArrayData data[28];
-    char stringdata0[319];
+    QByteArrayData data[30];
+    char stringdata0[336];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -55,11 +55,13 @@ QT_MOC_LITERAL(19, 233, 11), // "removeMargo"
 QT_MOC_LITERAL(20, 245, 9), // "helpMargo"
 QT_MOC_LITERAL(21, 255, 7), // "addUser"
 QT_MOC_LITERAL(22, 263, 9), // "faceCrawl"
-QT_MOC_LITERAL(23, 273, 14), // "setCurrentUser"
-QT_MOC_LITERAL(24, 288, 15), // "setShoppingCart"
-QT_MOC_LITERAL(25, 304, 4), // "cart"
-QT_MOC_LITERAL(26, 309, 7), // "setMask"
-QT_MOC_LITERAL(27, 317, 1) // "m"
+QT_MOC_LITERAL(23, 273, 7), // "newUser"
+QT_MOC_LITERAL(24, 281, 8), // "bestSell"
+QT_MOC_LITERAL(25, 290, 14), // "setCurrentUser"
+QT_MOC_LITERAL(26, 305, 15), // "setShoppingCart"
+QT_MOC_LITERAL(27, 321, 4), // "cart"
+QT_MOC_LITERAL(28, 326, 7), // "setMask"
+QT_MOC_LITERAL(29, 334, 1) // "m"
 
     },
     "Simulator\0productPurchase\0\0authentication\0"
@@ -69,8 +71,9 @@ QT_MOC_LITERAL(27, 317, 1) // "m"
     "updateCommodity\0purchaseRecord\0"
     "closeRecord\0margoManagement\0"
     "closeMargoManagement\0addMargo\0removeMargo\0"
-    "helpMargo\0addUser\0faceCrawl\0setCurrentUser\0"
-    "setShoppingCart\0cart\0setMask\0m"
+    "helpMargo\0addUser\0faceCrawl\0newUser\0"
+    "bestSell\0setCurrentUser\0setShoppingCart\0"
+    "cart\0setMask\0m"
 };
 #undef QT_MOC_LITERAL
 
@@ -80,7 +83,7 @@ static const uint qt_meta_data_Simulator[] = {
        8,       // revision
        0,       // classname
        0,    0, // classinfo
-      21,   14, // methods
+      23,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -88,27 +91,29 @@ static const uint qt_meta_data_Simulator[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags
-       1,    0,  119,    2, 0x08 /* Private */,
-       3,    0,  120,    2, 0x08 /* Private */,
-       4,    0,  121,    2, 0x08 /* Private */,
-       5,    0,  122,    2, 0x08 /* Private */,
-       6,    1,  123,    2, 0x08 /* Private */,
-      10,    0,  126,    2, 0x08 /* Private */,
-      11,    0,  127,    2, 0x08 /* Private */,
-      12,    0,  128,    2, 0x08 /* Private */,
-      13,    0,  129,    2, 0x08 /* Private */,
-      14,    0,  130,    2, 0x08 /* Private */,
-      15,    0,  131,    2, 0x08 /* Private */,
-      16,    0,  132,    2, 0x08 /* Private */,
-      17,    0,  133,    2, 0x08 /* Private */,
-      18,    0,  134,    2, 0x08 /* Private */,
-      19,    0,  135,    2, 0x08 /* Private */,
-      20,    0,  136,    2, 0x08 /* Private */,
-      21,    0,  137,    2, 0x08 /* Private */,
-      22,    0,  138,    2, 0x08 /* Private */,
-      23,    1,  139,    2, 0x0a /* Public */,
-      24,    1,  142,    2, 0x0a /* Public */,
-      26,    1,  145,    2, 0x0a /* Public */,
+       1,    0,  129,    2, 0x08 /* Private */,
+       3,    0,  130,    2, 0x08 /* Private */,
+       4,    0,  131,    2, 0x08 /* Private */,
+       5,    0,  132,    2, 0x08 /* Private */,
+       6,    1,  133,    2, 0x08 /* Private */,
+      10,    0,  136,    2, 0x08 /* Private */,
+      11,    0,  137,    2, 0x08 /* Private */,
+      12,    0,  138,    2, 0x08 /* Private */,
+      13,    0,  139,    2, 0x08 /* Private */,
+      14,    0,  140,    2, 0x08 /* Private */,
+      15,    0,  141,    2, 0x08 /* Private */,
+      16,    0,  142,    2, 0x08 /* Private */,
+      17,    0,  143,    2, 0x08 /* Private */,
+      18,    0,  144,    2, 0x08 /* Private */,
+      19,    0,  145,    2, 0x08 /* Private */,
+      20,    0,  146,    2, 0x08 /* Private */,
+      21,    0,  147,    2, 0x08 /* Private */,
+      22,    0,  148,    2, 0x08 /* Private */,
+      23,    0,  149,    2, 0x08 /* Private */,
+      24,    0,  150,    2, 0x08 /* Private */,
+      25,    1,  151,    2, 0x0a /* Public */,
+      26,    1,  154,    2, 0x0a /* Public */,
+      28,    1,  157,    2, 0x0a /* Public */,
 
  // slots: parameters
     QMetaType::Void,
@@ -129,9 +134,11 @@ static const uint qt_meta_data_Simulator[] = {
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
     QMetaType::Void, 0x80000000 | 8,    9,
-    QMetaType::Void, 0x80000000 | 7,   25,
-    QMetaType::Void, QMetaType::Bool,   27,
+    QMetaType::Void, 0x80000000 | 7,   27,
+    QMetaType::Void, QMetaType::Bool,   29,
 
        0        // eod
 };
@@ -161,9 +168,11 @@ void Simulator::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, v
         case 15: _t->helpMargo(); break;
         case 16: _t->addUser(); break;
         case 17: _t->faceCrawl(); break;
-        case 18: _t->setCurrentUser((*reinterpret_cast< User(*)>(_a[1]))); break;
-        case 19: _t->setShoppingCart((*reinterpret_cast< ShoppingCart(*)>(_a[1]))); break;
-        case 20: _t->setMask((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 18: _t->newUser(); break;
+        case 19: _t->bestSell(); break;
+        case 20: _t->setCurrentUser((*reinterpret_cast< User(*)>(_a[1]))); break;
+        case 21: _t->setShoppingCart((*reinterpret_cast< ShoppingCart(*)>(_a[1]))); break;
+        case 22: _t->setMask((*reinterpret_cast< bool(*)>(_a[1]))); break;
         default: ;
         }
     }
@@ -198,13 +207,13 @@ int Simulator::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 21)
+        if (_id < 23)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 21;
+        _id -= 23;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 21)
+        if (_id < 23)
             *reinterpret_cast<int*>(_a[0]) = -1;
-        _id -= 21;
+        _id -= 23;
     }
     return _id;
 }

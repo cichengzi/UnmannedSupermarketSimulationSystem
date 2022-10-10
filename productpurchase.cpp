@@ -16,7 +16,8 @@ ProductPurchase::ProductPurchase(QWidget *parent) :
     connect(ui->ShoppingCart, &QPushButton::clicked, this, &ProductPurchase::showShoppingCart);
     connect(ui->AddCommodity, &QPushButton::clicked, this, &ProductPurchase::addCommodity);
     connect(ui->removeCommodity, &QPushButton::clicked, this, &ProductPurchase::removeCommodity);
-    connect(ui->currentItem, &QPushButton::clicked, this, &ProductPurchase::currentItem);
+    connect(ui->clearShoppingCart, &QPushButton::clicked, this, &ProductPurchase::clearShoppingCart);
+//    connect(ui->currentItem, &QPushButton::clicked, this, &ProductPurchase::currentItem);
 
     //std::cout << "Now in Product Purchase, current User: " << currentUser.getName() << std::endl;
 
@@ -282,5 +283,27 @@ void ProductPurchase::showShoppingCart() {
             shoppingCartWidget->close();
         shoppingCartWidget = NULL;
         shoppingCartListWidget = NULL;
+    }
+}
+
+void ProductPurchase::clearShoppingCart() {
+    shoppingCart.clear();
+    saveShoppingCart();
+
+    shoppingCartListWidget->clear();
+
+    for (Commodity c: shoppingCart.getAllCommodities().getAllCommodities()) {
+        QWidget *widget = new QWidget(shoppingCartWidget);
+        QHBoxLayout *layout = new QHBoxLayout();
+
+        layout->addWidget(new QLabel(QString::fromStdString(c.getName())));
+        layout->addWidget(new QLabel(QString::fromStdString(std::to_string(c.getNumber()))));
+
+        widget->setLayout(layout);
+
+        QListWidgetItem *item = new QListWidgetItem();
+        item->setSizeHint(QSize(240, 50));
+        shoppingCartListWidget->addItem(item);
+        shoppingCartListWidget->setItemWidget(item, widget);
     }
 }

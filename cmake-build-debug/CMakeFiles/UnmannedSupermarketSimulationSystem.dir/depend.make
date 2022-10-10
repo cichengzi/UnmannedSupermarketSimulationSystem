@@ -3,6 +3,11 @@
 
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/Commodity.cpp.o: ../Commodity.cpp
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/Commodity.cpp.o: ../Commodity.h
+CMakeFiles/UnmannedSupermarketSimulationSystem.dir/Commodity.cpp.o: ../Helper.h
+CMakeFiles/UnmannedSupermarketSimulationSystem.dir/Commodity.cpp.o: ../LinkedList.h
+CMakeFiles/UnmannedSupermarketSimulationSystem.dir/Commodity.cpp.o: ../Node.h
+CMakeFiles/UnmannedSupermarketSimulationSystem.dir/Commodity.cpp.o: ../ShoppingCart.h
+CMakeFiles/UnmannedSupermarketSimulationSystem.dir/Commodity.cpp.o: ../User.h
 
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/CommodityShelf.cpp.o: ../Commodity.h
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/CommodityShelf.cpp.o: ../CommodityShelf.cpp

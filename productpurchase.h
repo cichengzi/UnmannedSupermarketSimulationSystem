@@ -37,6 +37,8 @@ private slots:
 
     void showShoppingCart(); // 展示购物车信息
 
+    void clearShoppingCart(); // 清空购物车
+
 public slots:
     void setCurrentUser(User us); // 设置当前用户为us
 

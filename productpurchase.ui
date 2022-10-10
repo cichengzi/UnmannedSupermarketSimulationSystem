@@ -44,7 +44,7 @@
       </rect>
      </property>
     </widget>
-    <widget class="QPushButton" name="currentItem">
+    <widget class="QPushButton" name="clearShoppingCart">
      <property name="geometry">
       <rect>
        <x>50</x>
@@ -54,7 +54,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>当前元素</string>
+      <string>清空购物车</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Back">

@@ -24,7 +24,7 @@ public:
     QScrollArea *scrollArea;
     QWidget *scrollAreaWidgetContents;
     QListWidget *listWidget;
-    QPushButton *currentItem;
+    QPushButton *clearShoppingCart;
     QPushButton *Back;
     QPushButton *AddCommodity;
     QPushButton *removeCommodity;
@@ -45,9 +45,9 @@ public:
         listWidget = new QListWidget(scrollAreaWidgetContents);
         listWidget->setObjectName(QString::fromUtf8("listWidget"));
         listWidget->setGeometry(QRect(0, 0, 960, 600));
-        currentItem = new QPushButton(scrollAreaWidgetContents);
-        currentItem->setObjectName(QString::fromUtf8("currentItem"));
-        currentItem->setGeometry(QRect(50, 630, 101, 51));
+        clearShoppingCart = new QPushButton(scrollAreaWidgetContents);
+        clearShoppingCart->setObjectName(QString::fromUtf8("clearShoppingCart"));
+        clearShoppingCart->setGeometry(QRect(50, 630, 101, 51));
         Back = new QPushButton(scrollAreaWidgetContents);
         Back->setObjectName(QString::fromUtf8("Back"));
         Back->setGeometry(QRect(200, 630, 111, 51));
@@ -70,7 +70,7 @@ public:
     void retranslateUi(QWidget *ProductPurchase)
     {
         ProductPurchase->setWindowTitle(QCoreApplication::translate("ProductPurchase", "ProductPurchase", nullptr));
-        currentItem->setText(QCoreApplication::translate("ProductPurchase", "\345\275\223\345\211\215\345\205\203\347\264\240", nullptr));
+        clearShoppingCart->setText(QCoreApplication::translate("ProductPurchase", "\346\270\205\347\251\272\350\264\255\347\211\251\350\275\246", nullptr));
         Back->setText(QCoreApplication::translate("ProductPurchase", "\350\277\224\345\233\236", nullptr));
         AddCommodity->setText(QCoreApplication::translate("ProductPurchase", "+", nullptr));
         removeCommodity->setText(QCoreApplication::translate("ProductPurchase", "-", nullptr));

@@ -26,7 +26,8 @@ def get_all_faces(image):
 def compare(image_path1='temp.jpg'):
     image1 = face_recognition.load_image_file(image_path1)
     image_enc1 = np.array(face_recognition.face_encodings(image1), dtype=float).reshape(-1)
-    #print(f'image path: {image_path1}')
+    if image_enc1.shape[0] == 0:
+        return None, 0.0
     best_similarity = 0.0
     best_class = None
     for root, dirs, files in os.walk('/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/FaceRecognition/faces'):
@@ -60,18 +61,21 @@ def face_recognize():
         if len(faces) != 1:
             time.sleep(0.01)
             continue
-        print(f'epoch {i + 1}, face recognizing...')
-        face = faces[0]
-        face = cv2.cvtColor(face, cv2.COLOR_GRAY2BGR)
-        plt.imsave(pic_path, face)
-        name, sim = compare()
-        print(name, sim)
-        if name is not None:
-            if os.path.exists(pic_path):
-                os.remove(pic_path)
-            with open('/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/FaceRecognition/result.txt', 'w') as f:
-                f.write(name)
-            return True
+        try:
+            print(f'epoch {i + 1}, face recognizing...')
+            face = faces[0]
+            face = cv2.cvtColor(face, cv2.COLOR_GRAY2BGR)
+            plt.imsave(pic_path, face)
+            name, sim = compare()
+            print(name, sim)
+            if name is not None:
+                if os.path.exists(pic_path):
+                    os.remove(pic_path)
+                with open('/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/FaceRecognition/result.txt', 'w') as f:
+                    f.write(name)
+                return True
+        except:
+            print('something wrong.')
     if os.path.exists(pic_path):
         os.remove(pic_path)
     return False
