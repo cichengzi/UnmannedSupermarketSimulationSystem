@@ -45,6 +45,10 @@ public:
     void saveShoppingCarts(std::vector<ShoppingCart> carts); // 将carts vector中所有的购物车保存到carts.txt中
 
     std::string currentTimeStamp(); // 以字符串形式获取当前的时间戳
+
+    double getSimilarity(std::string a, std::string b); // 计算两个字符串的相似度
+
+    std::string removePrefixBlank(std::string a);
 };
 
 #endif //UNMANNEDSUPERMARKETSIMULATIONSYSTEM_HELPER_H

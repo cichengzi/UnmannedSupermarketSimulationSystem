@@ -46,20 +46,6 @@ User.h
 string
 -
 
-/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/productpurchase.cpp
-productpurchase.h
-/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/productpurchase.h
-ui_ProductPurchase.h
-/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/ui_ProductPurchase.h
-simulator.h
-/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/simulator.h
-ui_Simulator.h
-/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/ui_Simulator.h
-QHBoxLayout
--
-iostream
--
-
 /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/productpurchase.h
 QWidget
 -
@@ -72,6 +58,34 @@ ShoppingCart.h
 CommodityShelf.h
 /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/CommodityShelf.h
 
+/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/simulator.cpp
+simulator.h
+/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/simulator.h
+ui_Simulator.h
+/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/ui_Simulator.h
+productpurchase.h
+/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/productpurchase.h
+ui_ProductPurchase.h
+/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/ui_ProductPurchase.h
+Helper.h
+/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/Helper.h
+iostream
+-
+QMessageBox
+-
+QHBoxLayout
+-
+QLineEdit
+-
+fstream
+-
+exception
+-
+map
+-
+QFont
+-
+
 /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/simulator.h
 QMainWindow
 -
@@ -80,6 +94,8 @@ QListWidget
 QPushButton
 -
 QTextEdit
+-
+QLabel
 -
 User.h
 /Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/User.h
@@ -862,6 +878,10 @@ QtCore/qpoint.h
 QtCore/qglobal.h
 -
 
+/Users/cichengzi/miniforge3/include/qt/QtGui/QFont
+qfont.h
+/Users/cichengzi/miniforge3/include/qt/QtGui/qfont.h
+
 /Users/cichengzi/miniforge3/include/qt/QtGui/qbrush.h
 QtGui/qtguiglobal.h
 -
@@ -1260,6 +1280,10 @@ qboxlayout.h
 qlabel.h
 /Users/cichengzi/miniforge3/include/qt/QtWidgets/qlabel.h
 
+/Users/cichengzi/miniforge3/include/qt/QtWidgets/QLineEdit
+qlineedit.h
+/Users/cichengzi/miniforge3/include/qt/QtWidgets/qlineedit.h
+
 /Users/cichengzi/miniforge3/include/qt/QtWidgets/QListWidget
 qlistwidget.h
 /Users/cichengzi/miniforge3/include/qt/QtWidgets/qlistwidget.h
@@ -1267,6 +1291,10 @@ qlistwidget.h
 /Users/cichengzi/miniforge3/include/qt/QtWidgets/QMainWindow
 qmainwindow.h
 /Users/cichengzi/miniforge3/include/qt/QtWidgets/qmainwindow.h
+
+/Users/cichengzi/miniforge3/include/qt/QtWidgets/QMessageBox
+qmessagebox.h
+/Users/cichengzi/miniforge3/include/qt/QtWidgets/qmessagebox.h
 
 /Users/cichengzi/miniforge3/include/qt/QtWidgets/QPushButton
 qpushbutton.h
@@ -1368,6 +1396,12 @@ QtWidgets/qtwidgetsglobal.h
 QtWidgets/qwidget.h
 -
 
+/Users/cichengzi/miniforge3/include/qt/QtWidgets/qdialog.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qwidget.h
+-
+
 /Users/cichengzi/miniforge3/include/qt/QtWidgets/qframe.h
 QtWidgets/qtwidgetsglobal.h
 -
@@ -1420,6 +1454,18 @@ QtCore/qrect.h
 limits.h
 -
 
+/Users/cichengzi/miniforge3/include/qt/QtWidgets/qlineedit.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qframe.h
+-
+QtGui/qtextcursor.h
+-
+QtCore/qstring.h
+-
+QtCore/qmargins.h
+-
+
 /Users/cichengzi/miniforge3/include/qt/QtWidgets/qlistview.h
 QtWidgets/qtwidgetsglobal.h
 -
@@ -1444,6 +1490,12 @@ QtWidgets/qtwidgetsglobal.h
 QtWidgets/qwidget.h
 -
 QtWidgets/qtabwidget.h
+-
+
+/Users/cichengzi/miniforge3/include/qt/QtWidgets/qmessagebox.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qdialog.h
 -
 
 /Users/cichengzi/miniforge3/include/qt/QtWidgets/qpushbutton.h

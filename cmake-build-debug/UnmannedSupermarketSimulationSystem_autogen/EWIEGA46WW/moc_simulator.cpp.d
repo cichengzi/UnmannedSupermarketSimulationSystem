@@ -219,6 +219,7 @@
   /Users/cichengzi/miniforge3/include/qt/QtGui/qtransform.h \
   /Users/cichengzi/miniforge3/include/qt/QtGui/qvalidator.h \
   /Users/cichengzi/miniforge3/include/qt/QtGui/qwindowdefs.h \
+  /Users/cichengzi/miniforge3/include/qt/QtWidgets/QLabel \
   /Users/cichengzi/miniforge3/include/qt/QtWidgets/QListWidget \
   /Users/cichengzi/miniforge3/include/qt/QtWidgets/QMainWindow \
   /Users/cichengzi/miniforge3/include/qt/QtWidgets/QPushButton \
@@ -230,6 +231,7 @@
   /Users/cichengzi/miniforge3/include/qt/QtWidgets/qabstractslider.h \
   /Users/cichengzi/miniforge3/include/qt/QtWidgets/qabstractspinbox.h \
   /Users/cichengzi/miniforge3/include/qt/QtWidgets/qframe.h \
+  /Users/cichengzi/miniforge3/include/qt/QtWidgets/qlabel.h \
   /Users/cichengzi/miniforge3/include/qt/QtWidgets/qlistview.h \
   /Users/cichengzi/miniforge3/include/qt/QtWidgets/qlistwidget.h \
   /Users/cichengzi/miniforge3/include/qt/QtWidgets/qmainwindow.h \

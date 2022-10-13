@@ -2,6 +2,7 @@
 #include<ctime>
 #include<iostream>
 #include<cstring>
+#include<set>
 
 
 std::string Helper::substring(std::string s, int begin) {
@@ -243,4 +244,48 @@ void Helper::saveCommodities(std::vector<Commodity> commodities) {
         fprintf(fw, "%s\n", commodity.toString().c_str());
     }
     fclose(fw);
+}
+
+double Helper::getSimilarity(std::string a, std::string b) {
+    std::set<int> sa, sb, in, uni;
+    int i = 0;
+    for (; i < a.length(); ) {
+        if (a[i] >= 0) {
+            sa.insert((int)a[i]);
+            i += 1;
+        }
+        else {
+            int num = a[i] * 256 * 256 + a[i + 1] * 256 + a[i + 2];
+            i += 3;
+            sa.insert(num);
+        }
+    }
+
+    i = 0;
+    for (; i < b.length(); ) {
+        if (b[i] >= 0) {
+            sb.insert((int)b[i]);
+            i += 1;
+        }
+        else {
+            int num = b[i] * 256 * 256 + b[i + 1] * 256 + b[i + 2];
+            i += 3;
+            sb.insert(num);
+        }
+    }
+    for (int x: sa) {
+        if (sb.find(x) != sb.end())
+            in.insert(x);
+        uni.insert(x);
+    }
+    for (int x: sb) {
+        uni.insert(x);
+    }
+    return 1.0 * in.size() / uni.size();
+}
+
+std::string Helper::removePrefixBlank(std::string a) {
+    while (a.length() > 0 && a[0] == ' ')
+        a = a.substr(1, a.length() - 1);
+    return a;
 }

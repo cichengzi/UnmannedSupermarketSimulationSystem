@@ -9,6 +9,7 @@
 #include<QListWidget>
 #include <QPushButton>
 #include<QTextEdit>
+#include <QLabel>
 #include"User.h"
 #include"ShoppingCart.h"
 
@@ -32,7 +33,11 @@ private slots:
 
     void maskDetection(); // 口罩检测的界面
 
-    void deal(); // 商品结算的界面
+    void deal(); // 商品结算
+
+    void dealCommodity(); // 商品结算的界面
+
+    void closeDealCommodity(); // 关闭商品结算界面
 
     ShoppingCart searchShoppingCart(User us); // 搜索用户为us的购物车
 
@@ -66,6 +71,12 @@ private slots:
 
     void bestSell(); // 统计最热销的商品
 
+    void closeBestSell(); // 关闭最热销商品展示界面
+
+    void closeAddUser(); // 关闭添加用户界面
+
+    void quit(); // 退出系统
+
 public slots:
     void setCurrentUser(User us); // 设置currentUser
 
@@ -97,6 +108,11 @@ private:
     QLineEdit* faceNamePrompt; // 人脸姓名输入栏
     QLineEdit* userTypePrompt; // 用户类型输入栏
     QLineEdit* balancePrompt; // 用户余额输入栏
+    QWidget *dealWidget; // 商品结算界面
+    QLabel* iconLabel1;
+    QLabel* iconLabel2;
+    QWidget* bestSellWidget; // 畅销界面
+    QPushButton* closeBestSellButton; // 关闭畅销界面按钮
     bool DEBUG = true; // 如果是debug模式的话，不用口罩检测和人脸识别
 };
 

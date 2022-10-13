@@ -173,6 +173,7 @@ CMakeFiles/UnmannedSupermarketSimulationSystem.dir/UnmannedSupermarketSimulation
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/UnmannedSupermarketSimulationSystem_autogen/mocs_compilation.cpp.o: /Users/cichengzi/miniforge3/include/qt/QtGui/qvector2d.h
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/UnmannedSupermarketSimulationSystem_autogen/mocs_compilation.cpp.o: /Users/cichengzi/miniforge3/include/qt/QtGui/qwindowdefs.h
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/UnmannedSupermarketSimulationSystem_autogen/mocs_compilation.cpp.o: /Users/cichengzi/miniforge3/include/qt/QtGui/qwindowdefs_win.h
+CMakeFiles/UnmannedSupermarketSimulationSystem.dir/UnmannedSupermarketSimulationSystem_autogen/mocs_compilation.cpp.o: /Users/cichengzi/miniforge3/include/qt/QtWidgets/QLabel
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/UnmannedSupermarketSimulationSystem_autogen/mocs_compilation.cpp.o: /Users/cichengzi/miniforge3/include/qt/QtWidgets/QListWidget
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/UnmannedSupermarketSimulationSystem_autogen/mocs_compilation.cpp.o: /Users/cichengzi/miniforge3/include/qt/QtWidgets/QMainWindow
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/UnmannedSupermarketSimulationSystem_autogen/mocs_compilation.cpp.o: /Users/cichengzi/miniforge3/include/qt/QtWidgets/QPushButton
@@ -185,6 +186,7 @@ CMakeFiles/UnmannedSupermarketSimulationSystem.dir/UnmannedSupermarketSimulation
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/UnmannedSupermarketSimulationSystem_autogen/mocs_compilation.cpp.o: /Users/cichengzi/miniforge3/include/qt/QtWidgets/qabstractslider.h
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/UnmannedSupermarketSimulationSystem_autogen/mocs_compilation.cpp.o: /Users/cichengzi/miniforge3/include/qt/QtWidgets/qabstractspinbox.h
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/UnmannedSupermarketSimulationSystem_autogen/mocs_compilation.cpp.o: /Users/cichengzi/miniforge3/include/qt/QtWidgets/qframe.h
+CMakeFiles/UnmannedSupermarketSimulationSystem.dir/UnmannedSupermarketSimulationSystem_autogen/mocs_compilation.cpp.o: /Users/cichengzi/miniforge3/include/qt/QtWidgets/qlabel.h
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/UnmannedSupermarketSimulationSystem_autogen/mocs_compilation.cpp.o: /Users/cichengzi/miniforge3/include/qt/QtWidgets/qlistview.h
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/UnmannedSupermarketSimulationSystem_autogen/mocs_compilation.cpp.o: /Users/cichengzi/miniforge3/include/qt/QtWidgets/qlistwidget.h
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/UnmannedSupermarketSimulationSystem_autogen/mocs_compilation.cpp.o: /Users/cichengzi/miniforge3/include/qt/QtWidgets/qmainwindow.h
@@ -337,6 +339,7 @@ CMakeFiles/UnmannedSupermarketSimulationSystem.dir/main.cpp.o: /Users/cichengzi/
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/main.cpp.o: /Users/cichengzi/miniforge3/include/qt/QtGui/qwindowdefs.h
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/main.cpp.o: /Users/cichengzi/miniforge3/include/qt/QtGui/qwindowdefs_win.h
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/main.cpp.o: /Users/cichengzi/miniforge3/include/qt/QtWidgets/QApplication
+CMakeFiles/UnmannedSupermarketSimulationSystem.dir/main.cpp.o: /Users/cichengzi/miniforge3/include/qt/QtWidgets/QLabel
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/main.cpp.o: /Users/cichengzi/miniforge3/include/qt/QtWidgets/QListWidget
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/main.cpp.o: /Users/cichengzi/miniforge3/include/qt/QtWidgets/QMainWindow
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/main.cpp.o: /Users/cichengzi/miniforge3/include/qt/QtWidgets/QPushButton
@@ -351,6 +354,7 @@ CMakeFiles/UnmannedSupermarketSimulationSystem.dir/main.cpp.o: /Users/cichengzi/
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/main.cpp.o: /Users/cichengzi/miniforge3/include/qt/QtWidgets/qapplication.h
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/main.cpp.o: /Users/cichengzi/miniforge3/include/qt/QtWidgets/qdesktopwidget.h
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/main.cpp.o: /Users/cichengzi/miniforge3/include/qt/QtWidgets/qframe.h
+CMakeFiles/UnmannedSupermarketSimulationSystem.dir/main.cpp.o: /Users/cichengzi/miniforge3/include/qt/QtWidgets/qlabel.h
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/main.cpp.o: /Users/cichengzi/miniforge3/include/qt/QtWidgets/qlistview.h
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/main.cpp.o: /Users/cichengzi/miniforge3/include/qt/QtWidgets/qlistwidget.h
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/main.cpp.o: /Users/cichengzi/miniforge3/include/qt/QtWidgets/qmainwindow.h
@@ -456,6 +460,7 @@ CMakeFiles/UnmannedSupermarketSimulationSystem.dir/productpurchase.cpp.o: /Users
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/productpurchase.cpp.o: /Users/cichengzi/miniforge3/include/qt/QtCore/qvarlengtharray.h
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/productpurchase.cpp.o: /Users/cichengzi/miniforge3/include/qt/QtCore/qvector.h
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/productpurchase.cpp.o: /Users/cichengzi/miniforge3/include/qt/QtCore/qversiontagging.h
+CMakeFiles/UnmannedSupermarketSimulationSystem.dir/productpurchase.cpp.o: /Users/cichengzi/miniforge3/include/qt/QtGui/QPalette
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/productpurchase.cpp.o: /Users/cichengzi/miniforge3/include/qt/QtGui/qbrush.h
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/productpurchase.cpp.o: /Users/cichengzi/miniforge3/include/qt/QtGui/qcolor.h
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/productpurchase.cpp.o: /Users/cichengzi/miniforge3/include/qt/QtGui/qcursor.h
@@ -493,6 +498,7 @@ CMakeFiles/UnmannedSupermarketSimulationSystem.dir/productpurchase.cpp.o: /Users
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/productpurchase.cpp.o: /Users/cichengzi/miniforge3/include/qt/QtWidgets/QApplication
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/productpurchase.cpp.o: /Users/cichengzi/miniforge3/include/qt/QtWidgets/QHBoxLayout
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/productpurchase.cpp.o: /Users/cichengzi/miniforge3/include/qt/QtWidgets/QLabel
+CMakeFiles/UnmannedSupermarketSimulationSystem.dir/productpurchase.cpp.o: /Users/cichengzi/miniforge3/include/qt/QtWidgets/QLineEdit
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/productpurchase.cpp.o: /Users/cichengzi/miniforge3/include/qt/QtWidgets/QListWidget
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/productpurchase.cpp.o: /Users/cichengzi/miniforge3/include/qt/QtWidgets/QMainWindow
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/productpurchase.cpp.o: /Users/cichengzi/miniforge3/include/qt/QtWidgets/QPushButton
@@ -513,6 +519,7 @@ CMakeFiles/UnmannedSupermarketSimulationSystem.dir/productpurchase.cpp.o: /Users
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/productpurchase.cpp.o: /Users/cichengzi/miniforge3/include/qt/QtWidgets/qlabel.h
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/productpurchase.cpp.o: /Users/cichengzi/miniforge3/include/qt/QtWidgets/qlayout.h
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/productpurchase.cpp.o: /Users/cichengzi/miniforge3/include/qt/QtWidgets/qlayoutitem.h
+CMakeFiles/UnmannedSupermarketSimulationSystem.dir/productpurchase.cpp.o: /Users/cichengzi/miniforge3/include/qt/QtWidgets/qlineedit.h
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/productpurchase.cpp.o: /Users/cichengzi/miniforge3/include/qt/QtWidgets/qlistview.h
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/productpurchase.cpp.o: /Users/cichengzi/miniforge3/include/qt/QtWidgets/qlistwidget.h
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/productpurchase.cpp.o: /Users/cichengzi/miniforge3/include/qt/QtWidgets/qmainwindow.h
@@ -621,6 +628,7 @@ CMakeFiles/UnmannedSupermarketSimulationSystem.dir/simulator.cpp.o: /Users/ciche
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/simulator.cpp.o: /Users/cichengzi/miniforge3/include/qt/QtCore/qvarlengtharray.h
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/simulator.cpp.o: /Users/cichengzi/miniforge3/include/qt/QtCore/qvector.h
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/simulator.cpp.o: /Users/cichengzi/miniforge3/include/qt/QtCore/qversiontagging.h
+CMakeFiles/UnmannedSupermarketSimulationSystem.dir/simulator.cpp.o: /Users/cichengzi/miniforge3/include/qt/QtGui/QFont
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/simulator.cpp.o: /Users/cichengzi/miniforge3/include/qt/QtGui/qbrush.h
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/simulator.cpp.o: /Users/cichengzi/miniforge3/include/qt/QtGui/qcolor.h
 CMakeFiles/UnmannedSupermarketSimulationSystem.dir/simulator.cpp.o: /Users/cichengzi/miniforge3/include/qt/QtGui/qcursor.h

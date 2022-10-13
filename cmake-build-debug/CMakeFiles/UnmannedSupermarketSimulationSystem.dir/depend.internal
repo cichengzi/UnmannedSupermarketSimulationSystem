@@ -174,6 +174,7 @@ CMakeFiles/UnmannedSupermarketSimulationSystem.dir/UnmannedSupermarketSimulation
  /Users/cichengzi/miniforge3/include/qt/QtGui/qvector2d.h
  /Users/cichengzi/miniforge3/include/qt/QtGui/qwindowdefs.h
  /Users/cichengzi/miniforge3/include/qt/QtGui/qwindowdefs_win.h
+ /Users/cichengzi/miniforge3/include/qt/QtWidgets/QLabel
  /Users/cichengzi/miniforge3/include/qt/QtWidgets/QListWidget
  /Users/cichengzi/miniforge3/include/qt/QtWidgets/QMainWindow
  /Users/cichengzi/miniforge3/include/qt/QtWidgets/QPushButton
@@ -186,6 +187,7 @@ CMakeFiles/UnmannedSupermarketSimulationSystem.dir/UnmannedSupermarketSimulation
  /Users/cichengzi/miniforge3/include/qt/QtWidgets/qabstractslider.h
  /Users/cichengzi/miniforge3/include/qt/QtWidgets/qabstractspinbox.h
  /Users/cichengzi/miniforge3/include/qt/QtWidgets/qframe.h
+ /Users/cichengzi/miniforge3/include/qt/QtWidgets/qlabel.h
  /Users/cichengzi/miniforge3/include/qt/QtWidgets/qlistview.h
  /Users/cichengzi/miniforge3/include/qt/QtWidgets/qlistwidget.h
  /Users/cichengzi/miniforge3/include/qt/QtWidgets/qmainwindow.h
@@ -338,6 +340,7 @@ CMakeFiles/UnmannedSupermarketSimulationSystem.dir/main.cpp.o
  /Users/cichengzi/miniforge3/include/qt/QtGui/qwindowdefs.h
  /Users/cichengzi/miniforge3/include/qt/QtGui/qwindowdefs_win.h
  /Users/cichengzi/miniforge3/include/qt/QtWidgets/QApplication
+ /Users/cichengzi/miniforge3/include/qt/QtWidgets/QLabel
  /Users/cichengzi/miniforge3/include/qt/QtWidgets/QListWidget
  /Users/cichengzi/miniforge3/include/qt/QtWidgets/QMainWindow
  /Users/cichengzi/miniforge3/include/qt/QtWidgets/QPushButton
@@ -352,6 +355,7 @@ CMakeFiles/UnmannedSupermarketSimulationSystem.dir/main.cpp.o
  /Users/cichengzi/miniforge3/include/qt/QtWidgets/qapplication.h
  /Users/cichengzi/miniforge3/include/qt/QtWidgets/qdesktopwidget.h
  /Users/cichengzi/miniforge3/include/qt/QtWidgets/qframe.h
+ /Users/cichengzi/miniforge3/include/qt/QtWidgets/qlabel.h
  /Users/cichengzi/miniforge3/include/qt/QtWidgets/qlistview.h
  /Users/cichengzi/miniforge3/include/qt/QtWidgets/qlistwidget.h
  /Users/cichengzi/miniforge3/include/qt/QtWidgets/qmainwindow.h
@@ -457,6 +461,7 @@ CMakeFiles/UnmannedSupermarketSimulationSystem.dir/productpurchase.cpp.o
  /Users/cichengzi/miniforge3/include/qt/QtCore/qvarlengtharray.h
  /Users/cichengzi/miniforge3/include/qt/QtCore/qvector.h
  /Users/cichengzi/miniforge3/include/qt/QtCore/qversiontagging.h
+ /Users/cichengzi/miniforge3/include/qt/QtGui/QPalette
  /Users/cichengzi/miniforge3/include/qt/QtGui/qbrush.h
  /Users/cichengzi/miniforge3/include/qt/QtGui/qcolor.h
  /Users/cichengzi/miniforge3/include/qt/QtGui/qcursor.h
@@ -494,6 +499,7 @@ CMakeFiles/UnmannedSupermarketSimulationSystem.dir/productpurchase.cpp.o
  /Users/cichengzi/miniforge3/include/qt/QtWidgets/QApplication
  /Users/cichengzi/miniforge3/include/qt/QtWidgets/QHBoxLayout
  /Users/cichengzi/miniforge3/include/qt/QtWidgets/QLabel
+ /Users/cichengzi/miniforge3/include/qt/QtWidgets/QLineEdit
  /Users/cichengzi/miniforge3/include/qt/QtWidgets/QListWidget
  /Users/cichengzi/miniforge3/include/qt/QtWidgets/QMainWindow
  /Users/cichengzi/miniforge3/include/qt/QtWidgets/QPushButton
@@ -514,6 +520,7 @@ CMakeFiles/UnmannedSupermarketSimulationSystem.dir/productpurchase.cpp.o
  /Users/cichengzi/miniforge3/include/qt/QtWidgets/qlabel.h
  /Users/cichengzi/miniforge3/include/qt/QtWidgets/qlayout.h
  /Users/cichengzi/miniforge3/include/qt/QtWidgets/qlayoutitem.h
+ /Users/cichengzi/miniforge3/include/qt/QtWidgets/qlineedit.h
  /Users/cichengzi/miniforge3/include/qt/QtWidgets/qlistview.h
  /Users/cichengzi/miniforge3/include/qt/QtWidgets/qlistwidget.h
  /Users/cichengzi/miniforge3/include/qt/QtWidgets/qmainwindow.h
@@ -622,6 +629,7 @@ CMakeFiles/UnmannedSupermarketSimulationSystem.dir/simulator.cpp.o
  /Users/cichengzi/miniforge3/include/qt/QtCore/qvarlengtharray.h
  /Users/cichengzi/miniforge3/include/qt/QtCore/qvector.h
  /Users/cichengzi/miniforge3/include/qt/QtCore/qversiontagging.h
+ /Users/cichengzi/miniforge3/include/qt/QtGui/QFont
  /Users/cichengzi/miniforge3/include/qt/QtGui/qbrush.h
  /Users/cichengzi/miniforge3/include/qt/QtGui/qcolor.h
  /Users/cichengzi/miniforge3/include/qt/QtGui/qcursor.h

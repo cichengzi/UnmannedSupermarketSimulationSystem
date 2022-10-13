@@ -11,124 +11,164 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string/>
   </property>
   <widget class="QWidget" name="centralWidget">
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>420</x>
+      <x>0</x>
       <y>20</y>
-      <width>201</width>
-      <height>61</height>
+      <width>960</width>
+      <height>120</height>
      </rect>
     </property>
     <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:48pt;&quot;&gt;无人超市&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-family:'STKaiti'; font-size:96pt; font-weight:700;&quot;&gt;无 人 超 市 模 拟 系 统&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
    <widget class="QPushButton" name="Authentication">
     <property name="geometry">
      <rect>
-      <x>440</x>
-      <y>160</y>
-      <width>141</width>
-      <height>61</height>
+      <x>120</x>
+      <y>210</y>
+      <width>720</width>
+      <height>60</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">font: 34pt &quot;STKaiti&quot;;</string>
+    </property>
     <property name="text">
-     <string>身份验证</string>
+     <string>身 份 验 证</string>
     </property>
    </widget>
    <widget class="QPushButton" name="productPurchase">
     <property name="geometry">
      <rect>
-      <x>440</x>
-      <y>210</y>
-      <width>141</width>
-      <height>61</height>
+      <x>120</x>
+      <y>270</y>
+      <width>720</width>
+      <height>60</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">font: 34pt &quot;STKaiti&quot;;</string>
+    </property>
     <property name="text">
-     <string>商品选购</string>
+     <string>商 品 选 购</string>
     </property>
    </widget>
    <widget class="QPushButton" name="maskDetection">
     <property name="geometry">
      <rect>
-      <x>440</x>
-      <y>110</y>
-      <width>141</width>
-      <height>61</height>
+      <x>120</x>
+      <y>150</y>
+      <width>720</width>
+      <height>60</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">font: 34pt &quot;STKaiti&quot;;</string>
+    </property>
     <property name="text">
-     <string>防疫检测</string>
+     <string>防 疫 检 测</string>
     </property>
    </widget>
    <widget class="QPushButton" name="deal">
     <property name="geometry">
      <rect>
-      <x>440</x>
-      <y>260</y>
-      <width>141</width>
-      <height>61</height>
+      <x>120</x>
+      <y>330</y>
+      <width>720</width>
+      <height>60</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">font: 34pt &quot;STKaiti&quot;;</string>
+    </property>
     <property name="text">
-     <string>商品结算</string>
+     <string>商 品 结 算</string>
     </property>
    </widget>
    <widget class="QPushButton" name="purchaseRecord">
     <property name="geometry">
      <rect>
-      <x>440</x>
-      <y>310</y>
-      <width>141</width>
-      <height>61</height>
+      <x>120</x>
+      <y>390</y>
+      <width>720</width>
+      <height>60</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">font: 34pt &quot;STKaiti&quot;;</string>
+    </property>
     <property name="text">
-     <string>购买记录</string>
+     <string>购 买 记 录</string>
     </property>
    </widget>
    <widget class="QPushButton" name="cargoManagement">
     <property name="geometry">
      <rect>
-      <x>440</x>
-      <y>360</y>
-      <width>141</width>
-      <height>61</height>
+      <x>120</x>
+      <y>450</y>
+      <width>720</width>
+      <height>60</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">font: 34pt &quot;STKaiti&quot;;</string>
+    </property>
     <property name="text">
-     <string>进出货管理</string>
+     <string>货 物 管 理</string>
     </property>
    </widget>
    <widget class="QPushButton" name="addUser">
     <property name="geometry">
      <rect>
-      <x>440</x>
-      <y>410</y>
-      <width>141</width>
-      <height>51</height>
+      <x>120</x>
+      <y>510</y>
+      <width>720</width>
+      <height>60</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">font: 34pt &quot;STKaiti&quot;;</string>
+    </property>
     <property name="text">
-     <string>添加用户</string>
+     <string>添 加 用 户</string>
     </property>
    </widget>
    <widget class="QPushButton" name="count">
     <property name="geometry">
      <rect>
-      <x>440</x>
-      <y>450</y>
-      <width>141</width>
-      <height>51</height>
+      <x>120</x>
+      <y>570</y>
+      <width>720</width>
+      <height>60</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">font: 34pt &quot;STKaiti&quot;;</string>
+    </property>
     <property name="text">
-     <string>热销商品</string>
+     <string>热 销 商 品</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="quit">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>630</y>
+      <width>721</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 34pt &quot;STKaiti&quot;;</string>
+    </property>
+    <property name="text">
+     <string>退 出 系 统</string>
     </property>
    </widget>
   </widget>

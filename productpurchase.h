@@ -39,6 +39,12 @@ private slots:
 
     void clearShoppingCart(); // 清空购物车
 
+    void search(); // 搜索界面
+
+    void renewCommodityList(); // 更新陈列的商品
+
+    void closeSearch(); // 关闭搜索界面
+
 public slots:
     void setCurrentUser(User us); // 设置当前用户为us
 
@@ -54,6 +60,11 @@ private:
     bool showCart; // 是否显示购物车🛒
     QWidget* shoppingCartWidget; // 购物车界面的ui
     QListWidget* shoppingCartListWidget; // 购物车商品列表的ui
+
+    QWidget* searchWidget; // 搜索界面ui
+    QLineEdit* keyWordPrompt; // 关键词输入栏
+    std::string keyWord; // 搜索关键词
+    std::vector<Commodity> commodities;
 };
 
 #endif //UNMANNEDSUPERMARKETSIMULATIONSYSTEM_PRODUCTPURCHASE_H
