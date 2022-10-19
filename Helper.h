@@ -49,6 +49,12 @@ public:
     double getSimilarity(std::string a, std::string b); // 计算两个字符串的相似度
 
     std::string removePrefixBlank(std::string a);
+
+    std::vector<Commodity> recommendation(std::vector<Commodity> commodities, std::vector<ShoppingCart> carts, ShoppingCart currentCart);
+
+    bool checkCommodityInShoppingCart(Commodity commodity, ShoppingCart cart);
+
+    bool hasSame(std::vector<Commodity> cs1, std::vector<Commodity> cs2);
 };
 
 #endif //UNMANNEDSUPERMARKETSIMULATIONSYSTEM_HELPER_H

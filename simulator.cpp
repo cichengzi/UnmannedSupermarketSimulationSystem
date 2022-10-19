@@ -29,26 +29,13 @@ Simulator::Simulator(QWidget *parent) :
     currentUser = User(); // 初始用户，id为0，象征未验证
     shoppingCart = ShoppingCart(currentUser); // 购物车的初始化
 
-    // 设置字体
-
-    //QFont buttonFont;
-    //buttonFont.setFamily("STKaiti");
-    //buttonFont.setPointSize(25);
-    //ui->Authentication->setFont(buttonFont);
     ui->Authentication->setFlat(true);
-    //ui->productPurchase->setFont(buttonFont);
     ui->productPurchase->setFlat(true);
-    //ui->maskDetection->setFont(buttonFont);
     ui->maskDetection->setFlat(true);
-    //ui->deal->setFont(buttonFont);
     ui->deal->setFlat(true);
-    //ui->purchaseRecord->setFont(buttonFont);
     ui->purchaseRecord->setFlat(true);
-    //ui->cargoManagement->setFont(buttonFont);
     ui->cargoManagement->setFlat(true);
-    //ui->addUser->setFont(buttonFont);
     ui->addUser->setFlat(true);
-    //ui->count->setFont(buttonFont);
     ui->count->setFlat(true);
     ui->quit->setFlat(true);
 
@@ -82,13 +69,18 @@ Simulator::~Simulator() {
 
 void Simulator::productPurchase() {
     if (mask && currentUser.getId() != 0) { // 如果口罩检测通过并且当前用户的id不为0，即身份验证通过
-        //std::cout << currentUser.getName() << std::endl;
+        Helper helper;
+        std::vector<Commodity> commodities = helper.readCommodities();
+        std::sort(commodities.begin(), commodities.end());
+        std::cout << "Now in productPurchase, current User: " << shoppingCart.getUser().getName() << std::endl;
+
         ProductPurchase *productPurchase = new ProductPurchase(); // 商品购买界面
-        //std::cout << "after create product purchase" << std::endl;
         productPurchase->setCurrentUser(currentUser); // 设置商品购买类中的currentUser
-        //std::cout << "current line" << std::endl;
+        std::cout << "Now in simulator, current User: " << currentUser.getName() << std::endl;
         productPurchase->setShoppingCart(searchShoppingCart(currentUser)); // 设置商品购买类中的shoppingCart
+
         productPurchase->show(); // 展示商品购买界面
+
         if (bestSellWidget != NULL) {
             bestSellWidget->close();
             bestSellWidget = NULL;
@@ -316,15 +308,8 @@ void Simulator::deal() {
         QMessageBox::information(this, title, content, buttonText);
 
         updateUser(); // 更新currentUser和users.txt
-
-        std::cout << "Before update Record:" << std::endl;
-        std::cout << shoppingCart.toString() << std::endl;
         updateRecord(); // 更新records.txt
-
-        std::cout << "After update ShoppingCart:" << std::endl;
-        std::cout << shoppingCart.toString() << std::endl;
         updateCommodity(); // 更新commodities.txt
-
         updateShoppingCart(); // 清空shoppingCart并更新carts.txt
 
         dealWidget->close();

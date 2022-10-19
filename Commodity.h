@@ -13,6 +13,10 @@ private:
     std::string description; // 商品描述
 
 public:
+    friend bool operator < (Commodity a, Commodity b) {
+        return a.getPrice() < b.getPrice();
+    }
+
     Commodity(); // 商品类的默认构造函数
 
     Commodity(std::string nm, double p, int nb, std::string d); // 商品类的另一个构造函数

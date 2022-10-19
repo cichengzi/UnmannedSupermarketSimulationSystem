@@ -52,6 +52,8 @@ public slots:
 
     void loadShoppingCart(); // 从carts.txt中找出用户us对应的购物车
 
+    void setCommodities(std::vector<Commodity> commodities); // 设置商品列表
+
 private:
     Ui::ProductPurchase *ui; // 当前界面的ui
     User currentUser; // 当前用户

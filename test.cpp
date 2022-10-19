@@ -16,7 +16,7 @@ bool Tester::assertTrueInt(int a, int b) {
     return a == b;
 }
 
-bool Tester::testAddUser() {
+bool AutoTest::testAddUser() {
     Supermarket supermarket;
     User user1 = User("孙琪", GeneralUser, 100);
     User user2 = User("甄思琪", Administrator, 200);
@@ -27,7 +27,7 @@ bool Tester::testAddUser() {
     return true;
 }
 
-bool Tester::testReadUsers() {
+bool AutoTest::testReadUsers() {
     Supermarket supermarket;
     User user1 = User("孙琪", GeneralUser, 100);
     User user2 = User("甄思琪", Administrator, 200);
@@ -53,7 +53,7 @@ bool Tester::testReadUsers() {
     return true;
 }
 
-bool Tester::testClearAllUsers() {
+bool AutoTest::testClearAllUsers() {
     Supermarket supermarket;
     User user1 = User("孙琪", GeneralUser, 100);
     User user2 = User("甄思琪", Administrator, 200);
@@ -65,7 +65,7 @@ bool Tester::testClearAllUsers() {
     return true;
 }
 
-bool Tester::testGetUser() {
+bool AutoTest::testGetUser() {
     Supermarket supermarket;
     User user1 = User("孙琪", GeneralUser, 100);
     User user2 = User("甄思琪", Administrator, 200);
@@ -78,7 +78,7 @@ bool Tester::testGetUser() {
     return true;
 }
 
-bool Tester::testSaveUsers() {
+bool AutoTest::testSaveUsers() {
     Supermarket supermarket;
     User user1 = User("孙琪", GeneralUser, 100);
     User user2 = User("甄思琪", Administrator, 200);
@@ -96,7 +96,7 @@ bool Tester::testSaveUsers() {
     return true;
 }
 
-bool Tester::runAllTest() {
+bool AutoTest::runAllTest() {
     if (!testAddUser())
         return false;
     if (!testReadUsers())

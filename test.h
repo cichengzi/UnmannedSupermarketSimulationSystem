@@ -16,7 +16,9 @@ public:
     bool assertTrueDouble(double a, double b); // 判断两个浮点数是否相等
 
     bool assertTrueInt(int a, int b); // 判断两个整型是否相等
+};
 
+class AutoTest: Tester {
     bool testReadUsers(); // 测试读取用户信息
 
     bool testAddUser(); // 测试添加用户

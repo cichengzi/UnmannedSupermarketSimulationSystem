@@ -42,26 +42,21 @@ ProductPurchase::ProductPurchase(QWidget *parent) :
 
     ui->searchCommodity->setFlat(true);
     ui->searchCommodity->setFont(buttonFont);
-//    connect(ui->currentItem, &QPushButton::clicked, this, &ProductPurchase::currentItem);
-
-    //std::cout << "Now in Product Purchase, current User: " << currentUser.getName() << std::endl;
-
-    //std::cout << shoppingCart.toString() << std::endl;
 
     ui->listWidget->setViewMode(QListView::ListMode);
     ui->listWidget->setFlow(QListView::TopToBottom);
 
-    //this->setStyleSheet("QWidget{background: white;}");
-
-    commodities = commodityShelf.readCommodities();
     QFont nameFont;
     nameFont.setPointSize(20);
     nameFont.setFamily("STKaiti");
     QFont priceFont;
     priceFont.setPointSize(25);
     priceFont.setFamily("STKaiti");
-    //QPalette pe;
-    //pe.setColor(QPalette::WindowText, Qt::red);
+
+    Helper helper;
+    commodities = helper.readCommodities();
+    std::sort(commodities.begin(), commodities.end());
+
     for (int i = 0; i < commodities.size(); i++) {
         QWidget *widget = new QWidget(this);
 
@@ -113,7 +108,6 @@ ProductPurchase::~ProductPurchase() {
 }
 
 void ProductPurchase::returnBack() {
-    //printf("now in return back\n");
     if (shoppingCartWidget != NULL) {
         shoppingCartWidget->close();
         shoppingCartWidget = NULL;
@@ -143,6 +137,10 @@ void ProductPurchase::currentItem() {
     else {
         std::cout << "Null" << std::endl;
     }
+}
+
+void ProductPurchase::setCommodities(std::vector<Commodity> commodities) {
+    this->commodities = commodities;
 }
 
 void ProductPurchase::saveShoppingCart() {

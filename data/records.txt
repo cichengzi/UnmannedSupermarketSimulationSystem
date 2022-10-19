@@ -1,25 +1,4 @@
-孙琪,0,9997262.300000
-/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/resources/100.jpg,得宝抽纸樱花味12包90抽4层印花纸巾加厚抽纸面巾家用德宝香香纸,59.900000,4,1665370747838032,得宝抽纸樱花味12包90抽4层印花纸巾加厚抽纸面巾家用德宝香香纸
-/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/resources/72.jpg,迪士尼智能儿童保温水杯小学生男童女孩带吸管幼儿园上学专用水壶,129.000000,2,1665370740239679,迪士尼智能儿童保温水杯小学生男童女孩带吸管幼儿园上学专用水壶
-/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/resources/25.jpg,上海扇牌洗衣皂150g*5  家用去污肥皂婴儿洗衣服透明皂内衣皂批发,29.900000,1,1665370728823593,上海扇牌洗衣皂150g*5  家用去污肥皂婴儿洗衣服透明皂内衣皂批发
-/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/resources/50.jpg,正品舒肤佳沐浴露大瓶家庭装男女沐浴液纯白清香清洁润肤沐浴乳,37.700000,1,1665370734842604,正品舒肤佳沐浴露大瓶家庭装男女沐浴液纯白清香清洁润肤沐浴乳
-/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/resources/21.jpg,立白全效馨香洗衣液洁净护衣留香持久手洗机洗可配合消毒液使用,89.900000,2,1665370727965916,立白全效馨香洗衣液洁净护衣留香持久手洗机洗可配合消毒液使用
-/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/resources/2.jpg,护舒宝液体未来感卫生巾姨妈巾日用组合装欧美进口正品批发学生,209.900000,5,1665370723618197,护舒宝液体未来感卫生巾姨妈巾日用组合装欧美进口正品批发学生
-/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/resources/1.jpg,【加长加大加量】特价大包抽纸批发整箱大包纸巾家用面巾纸餐巾纸,17.900000,3,1665370723366664,【加长加大加量】特价大包抽纸批发整箱大包纸巾家用面巾纸餐巾纸
-/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/resources/3.jpg,舒肤佳沐浴露持久留香1L家庭装大瓶保湿补水干皮止痒杀菌纯白柠檬,30.900000,2,1665370723853348,舒肤佳沐浴露持久留香1L家庭装大瓶保湿补水干皮止痒杀菌纯白柠檬
-/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/resources/52.jpg,云南白药牙膏益优冰柠薄荷145g平衡口腔菌群强化口腔持久清新口气,20.900000,1,1665370735203698,云南白药牙膏益优冰柠薄荷145g平衡口腔菌群强化口腔持久清新口气
-/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/resources/77.jpg,荣事达微压锅麦饭石锅不粘锅蒸炒锅家用麦石炒菜电磁炉燃气灶适用,250.000000,3,1665370741473284,荣事达微压锅麦饭石锅不粘锅蒸炒锅家用麦石炒菜电磁炉燃气灶适用
-/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/resources/24.jpg,Sofy/苏菲安心裤M/L码XL超薄款大码超熟睡安睡裤型卫生巾安全裤,39.900000,1,1665370728593053,Sofy/苏菲安心裤M/L码XL超薄款大码超熟睡安睡裤型卫生巾安全裤
-/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/resources/23.jpg,【加长加大加量】特价大包抽纸批发整箱大包纸巾家用面巾纸餐巾纸,16.900000,1,1665370728377693,【加长加大加量】特价大包抽纸批发整箱大包纸巾家用面巾纸餐巾纸
-宋羽飞,0,9999997958.400002
-/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/resources/62.jpg,高洁丝卫生巾极薄棉柔迷你护翼190mm组合装整箱批发价女姨妈护垫,29.900000,1,1665370737647639,高洁丝卫生巾极薄棉柔迷你护翼190mm组合装整箱批发价女姨妈护垫
-/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/resources/13.jpg,苏菲卫生巾日夜组合超熟睡420批发整箱纯棉夜用290姨妈巾学生,30.000000,1,1665370726256289,苏菲卫生巾日夜组合超熟睡420批发整箱纯棉夜用290姨妈巾学生
-/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/resources/12.jpg,心相印200抽XL大号抽纸餐巾纸卫生纸抽纸大包装大号家用批发大包,30.900000,1,1665370725907969,心相印200抽XL大号抽纸餐巾纸卫生纸抽纸大包装大号家用批发大包
-/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/resources/2.jpg,护舒宝液体未来感卫生巾姨妈巾日用组合装欧美进口正品批发学生,209.900000,4,1665370723618197,护舒宝液体未来感卫生巾姨妈巾日用组合装欧美进口正品批发学生
-/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/resources/1.jpg,【加长加大加量】特价大包抽纸批发整箱大包纸巾家用面巾纸餐巾纸,17.900000,1,1665370723366664,【加长加大加量】特价大包抽纸批发整箱大包纸巾家用面巾纸餐巾纸
-/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/resources/3.jpg,舒肤佳沐浴露持久留香1L家庭装大瓶保湿补水干皮止痒杀菌纯白柠檬,30.900000,2,1665370723853348,舒肤佳沐浴露持久留香1L家庭装大瓶保湿补水干皮止痒杀菌纯白柠檬
-/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/resources/10.jpg,蓝月亮洗衣液3kg大瓶一整箱批发价家庭装薰衣草香味持留香超香,175.800000,2,1665370725454552,蓝月亮洗衣液3kg大瓶一整箱批发价家庭装薰衣草香味持留香超香
-/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/resources/30.jpg,护舒宝未来感液体卫生巾 日用夜用超薄透气女学生姨妈巾欧美进口,99.900000,1,1665370730219886,护舒宝未来感液体卫生巾 日用夜用超薄透气女学生姨妈巾欧美进口
-/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/resources/11.jpg,炊大皇304不锈钢炒锅不粘锅少油烟加厚家用蜂窝炒菜锅明火电磁炉,150.000000,2,1665370725694829,炊大皇304不锈钢炒锅不粘锅少油烟加厚家用蜂窝炒菜锅明火电磁炉
-/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/resources/73.jpg,苏菲卫生巾日夜用组合装超熟睡420正品姨妈巾女学生一整箱批发价,29.900000,8,1665370740560999,苏菲卫生巾日夜用组合装超熟睡420正品姨妈巾女学生一整箱批发价
-/Users/cichengzi/Desktop/code/UnmannedSupermarketSimulationSystem/resources/20.jpg,舒肤佳红石榴排浊沐浴露香水留香持久男女士啫喱540毫升去油换肤,39.800000,1,1665370727728305,舒肤佳红石榴排浊沐浴露香水留香持久男女士啫喱540毫升去油换肤
+孙琪,0,9997214.600000
+../resources/453.jpg,中华健齿白牙膏牙齿护龈薄荷味清新男女学生党通用家庭装正牌正品,15.900000,1,1665965075927756,中华健齿白牙膏牙齿护龈薄荷味清新男女学生党通用家庭装正牌正品
+../resources/239.jpg,一次性洗脸巾纯棉加厚洁面巾卸妆绵柔巾卷筒无菌毛巾擦脸巾洗面巾,15.900000,1,1665964315157132,一次性洗脸巾纯棉加厚洁面巾卸妆绵柔巾卷筒无菌毛巾擦脸巾洗面巾
+../resources/574.jpg,【保税直发】Vaseline凡士林晶冻护手霜保湿霜唇膜淡化唇纹100ml,15.900000,1,1665965342875772,【保税直发】Vaseline凡士林晶冻护手霜保湿霜唇膜淡化唇纹100ml

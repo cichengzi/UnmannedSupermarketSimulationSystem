@@ -289,3 +289,52 @@ std::string Helper::removePrefixBlank(std::string a) {
         a = a.substr(1, a.length() - 1);
     return a;
 }
+
+bool Helper::checkCommodityInShoppingCart(Commodity commodity, ShoppingCart cart) {
+    for (Commodity c: cart.getAllCommodities().getAllCommodities()) {
+        if (c.getName() == commodity.getName())
+            return true;
+    }
+    return false;
+}
+
+bool Helper::hasSame(std::vector<Commodity> cs1, std::vector<Commodity> cs2) {
+    std::set<std::string> s1, s2;
+    for (Commodity c: cs1) {
+        s1.insert(c.getName());
+    }
+    for (Commodity c: cs2) {
+        s2.insert(c.getName());
+    }
+    for (std::string s: s1) {
+        if (s2.find(s) != s2.end())
+            return true;
+    }
+    return false;
+}
+
+std::vector<Commodity> Helper::recommendation(std::vector<Commodity> commodities, std::vector<ShoppingCart> records, ShoppingCart currentRecord) {
+    std::vector<Commodity> new_commodities;
+    std::set<Commodity> idx_sets;
+    std::vector<User> users;
+
+    for (ShoppingCart cart: records) {
+        if (hasSame(cart.getAllCommodities().getAllCommodities(),
+                    currentRecord.getAllCommodities().getAllCommodities())) {
+            users.push_back(cart.getUser());
+            for (Commodity c: cart.getAllCommodities().getAllCommodities()) {
+                idx_sets.insert(c);
+            }
+        }
+    }
+
+    for (Commodity c: idx_sets) {
+        new_commodities.push_back(c);
+    }
+    for (Commodity c: commodities) {
+        if (idx_sets.find(c) != idx_sets.end())
+            continue;
+        new_commodities.push_back(c);
+    }
+    return new_commodities;
+}
